@@ -1,0 +1,58 @@
+/* Importa a fonte do Google que estava no <head> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header {
+  width: 100%;
+  background-color: #F5E0DE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  padding: 2.5rem 0rem 3rem 0rem;
+}
+
+.navegation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 1%;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  list-style-type: none;
+}
+
+.button-header {
+  border-radius: 999rem;
+  padding: 1rem;
+  background-color: #F5E0DE;
+  border: 0.1rem solid #CA6E70;
+  font-weight: 900;
+  color: #CA6E70;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.9rem;
+}
+
+.button-header:hover {
+  background-color: #CA6E70;
+  color: #F5E0DE;
+}
+
+#button-voluntario {
+  background-color: #CA6E70;
+  color: #F5E0DE;
+}
+
+#button-voluntario:hover {
+  background-color: #F5E0DE;
+  color: #CA6E70;
+}
+
+.terms-link {
+  text-decoration: none;
+}
