@@ -1,9 +1,10 @@
 'use client';
-import Teste from './components/teste/teste';
+
+import { Apoiador } from './components/teste/Seja-um-apoiador/Apoiador';
 import './App.css';
 
 function App() {
-  return <Teste />;
+  return  <Apoiador/> 
 }
 
 export default App;
