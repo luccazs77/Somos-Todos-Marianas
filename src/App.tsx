@@ -1,11 +1,11 @@
 
 'use client';
-import { SaibaMaisQuemSomos } from './pages/saiba_mais/saiba_mais_quem_somos';
 
-
+import { Apoiador } from './components/teste/Seja-um-apoiador/Apoiador';
+import './App.css';
 
 function App() {
-  return <SaibaMaisQuemSomos />;
-
+  return  <Apoiador/> 
 }
+
 export default App;
