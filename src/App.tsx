@@ -1,9 +1,13 @@
-'use client';
-import Teste from './components/teste/teste';
-import './App.css';
+import React from "react";
+import Header from "./components/header";
+
 
 function App() {
-  return <Teste />;
+  return (
+    <>
+      <Header />
+    </>
+  );
 }
 
 export default App;
