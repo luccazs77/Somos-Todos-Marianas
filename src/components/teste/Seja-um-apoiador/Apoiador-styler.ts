@@ -13,22 +13,23 @@ export const Container = styled.div`
     font-family: "Poppins", sans-serif;
     padding: 40px 20px;
     width: 100vw;
-    margin: 0;
-    gap: 40px;
+ 
+    gap: 6%;
     box-sizing: border-box;
+   
 `
 export const TextContent = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+     margin-top: 400px;
 
 `
 
 
 export const ImgQRC = styled.img`
-    height: 30vh;
-    margin-top: -250px;
+    height: 35vh;
+    margin-top: 135px;
 
 `
 export const TextoH1 = styled.h1`
@@ -100,8 +101,8 @@ export const Button = styled.button`
     font-size: 16px;
     font-weight:bold;
     border-radius: 30px;
-    width: 40%;
-    margin-left: 140px;
+    width: 35%;
+    margin-left: 190px;
 
 
 

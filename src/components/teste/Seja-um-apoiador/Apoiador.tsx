@@ -1,5 +1,5 @@
 'use client';
-import logo from "../../../assets/QRC.jpg";
+import logo from "../../../assets/QRC.png";
 import Pixlogo from "../../../assets/PX.png"
 import { Button, Container, PixBox, Subtitulo, TextContent, Textoh, TextoH1 } from "./Apoiador-styler";
 import { ImgQRC } from "./Apoiador-styler";
