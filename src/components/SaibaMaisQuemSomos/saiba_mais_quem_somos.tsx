@@ -1,8 +1,8 @@
-import { ButaoTopo } from "../../components/buttonTopo";
-import Img16 from "../saiba_mais/imagens/image 16.png";
-import FestaMariana from "../saiba_mais/imagens/Sem título 5.png"
-import Img8 from "../saiba_mais/imagens/Sem título 8.png"
-import * as S from '../saiba_mais_quem_somos_styled'
+import { ButaoTopo } from "../../presentation/shared/Button-saiba-mais/buttonTopo";
+import Img16 from "../../assets/image 16.png";
+import FestaMariana from "../../assets/Sem título 5.png"
+import Img8 from "../../assets/image 8.png"
+import * as S from './saiba_mais_quem_somos_styled'
 export function SaibaMaisQuemSomos() {
     return(
 <>  

@@ -1,8 +1,8 @@
 
 'use client';
 
-import { Apoiador } from './components/teste/Seja-um-apoiador/Apoiador';
-import './App.css';
+import { Apoiador } from './components/Seja-um-apoiador/Apoiador';
+
 
 function App() {
   return  <Apoiador/> 
