@@ -1,11 +1,15 @@
-
-'use client';
-
-import { Apoiador } from './components/Seja-um-apoiador/Apoiador';
+// src/App.tsx
+import { Routes, Route } from "react-router-dom";
+import { Apoiador } from "./components/SejaUmApoiador/Apoiador";
 
 
 function App() {
-  return  <Apoiador/> 
+  return (
+    <Routes>
+      <Route path="/seja-um-apoiador" element={<Apoiador />} />
+      
+    </Routes>
+  );
 }
 
 export default App;

@@ -1,5 +1,5 @@
-import React from "react";
-import logo from "../assets/logoz.png"
+
+import logo from "../../../assets/logoz.png";
 import {
   HeaderContainer,
   Nav,
@@ -7,11 +7,11 @@ import {
   LogoImg,
   NavList,
   NavItem,
-  NavLink,
   VoluntarioButton,
-} from "./headerStyles";
+} from "./header-styles";
+import { Link } from "react-router-dom";
 
-const Header = () => {
+export function Header() {
   return (
     <HeaderContainer>
       <Nav>
@@ -19,20 +19,20 @@ const Header = () => {
           <LogoImg src={logo} alt="Logo SOMOSTODOSMARIANAS" />
         </Logo>
         <NavList>
-          <NavItem><NavLink href="#">Início</NavLink></NavItem>
-          <NavItem><NavLink href="#">Quem somos</NavLink></NavItem>
-          <NavItem><NavLink href="#">Ações</NavLink></NavItem>
-          <NavItem><NavLink href="#">Educação</NavLink></NavItem>
-          <NavItem><NavLink href="#">Prevenção</NavLink></NavItem>
-          <NavItem><NavLink href="#">Seja um apoiador</NavLink></NavItem>
+          <NavItem><Link to="/">Início</Link></NavItem>
+          <NavItem><Link to="/quem-somos">Quem somos</Link></NavItem>
+          <NavItem><Link to="/acoes">Ações</Link></NavItem>
+          <NavItem><Link to="/educacao">Educação</Link></NavItem>
+          <NavItem><Link to="/prevencao">Prevenção</Link></NavItem>
+          <NavItem><Link to="/seja-um-apoiador">Seja um apoiador</Link></NavItem>
           <NavItem>
-            <VoluntarioButton href="#">Seja um voluntário</VoluntarioButton>
+            <VoluntarioButton as={Link} to="/contato">
+              Seja um voluntário
+            </VoluntarioButton>
           </NavItem>
-          <NavItem><NavLink href="#">Contato</NavLink></NavItem>
+          <NavItem><Link to="/contato">Contato</Link></NavItem>
         </NavList>
       </Nav>
     </HeaderContainer>
   );
-};
-
-export default Header;
+}

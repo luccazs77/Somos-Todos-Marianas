@@ -1,13 +1,17 @@
-import { ButaoTopo } from "../../presentation/shared/Button-saiba-mais/buttonTopo";
-import Img16 from "../../assets/image 16.png";
-import FestaMariana from "../../assets/Sem título 5.png"
-import Img8 from "../../assets/image 8.png"
-import * as S from './saiba_mais_quem_somos_styled'
+import { ButaoTopo } from "../../presentation/shared/ButtonSaibaMais/button-topo";
+import Img16 from "../../../src/assets/image 16.png";
+import FestaMariana from "../../../src/assets/Sem título 5.png"
+import Img8 from "../../../src/assets/Sem título 8.png"
+import * as S from './saiba-mais-quem-somos-styled'
+import { Header } from "../../presentation/shared/Header/header";
 export function SaibaMaisQuemSomos() {
     return(
 <>  
     <S.AllContainer>
+         <Header/>
         <S.ContainerInicial>
+           
+
             <S.Img16 src={Img16} alt="Foto de Mariana em pé" />
         
         

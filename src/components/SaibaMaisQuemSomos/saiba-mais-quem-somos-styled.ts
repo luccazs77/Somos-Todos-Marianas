@@ -169,6 +169,7 @@ export const ContainerInicial = styled.div`
   flex-direction: row;
   padding: 0% 0% 2% 0%;
   box-sizing: border-box;
+  margin-top: 1%;
 
   @media (max-width: 1024px) {
     flex-direction: column;
