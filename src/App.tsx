@@ -1,9 +1,11 @@
 'use client';
 import Teste from './components/teste/teste';
-import './App.css';
+import { SaibaMaisQuemSomos } from './pages/saiba_mais/saiba_mais_quem_somos';
+
+
 
 function App() {
-  return <Teste />;
+  return <SaibaMaisQuemSomos />;
 }
 
 export default App;
