@@ -1,15 +1,12 @@
-// src/App.tsx
-import { Routes, Route } from "react-router-dom";
-import { Apoiador } from "./components/SejaUmApoiador/Apoiador";
+
+'use client';
+
+import { SaibaMaisQuemSomos } from './components/SaibaMaisQuemSomos/saiba-mais-quem-somos';
+import { Apoiador } from './components/SejaUmApoiador/Apoiador';
 
 
 function App() {
-  return (
-    <Routes>
-      <Route path="/seja-um-apoiador" element={<Apoiador />} />
-      
-    </Routes>
-  );
+  return  <Apoiador/> 
 }
 
 export default App;

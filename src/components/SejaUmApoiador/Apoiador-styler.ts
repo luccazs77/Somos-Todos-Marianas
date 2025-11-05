@@ -15,7 +15,7 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 80px;
-  margin-top: 100px;
+
   flex-wrap: wrap; /* para responsividade */
 `;
 
@@ -72,9 +72,9 @@ export const PixBox = styled.div`
 `;
 
 export const ImgQRC = styled.img`
-  height: 40vh;
+  height: 50vh;
   border-radius: 8px;
-  margin-top: 40px;
+  margin-top: 15%;
 `;
 
 export const Button = styled.button`
