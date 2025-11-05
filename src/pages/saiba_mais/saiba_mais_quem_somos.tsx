@@ -1,3 +1,4 @@
+import { ButaoTopo } from "../../components/buttonTopo";
 import Img16 from "../saiba_mais/imagens/image 16.png";
 import FestaMariana from "../saiba_mais/imagens/Sem título 5.png"
 import Img8 from "../saiba_mais/imagens/Sem título 8.png"
@@ -41,6 +42,7 @@ export function SaibaMaisQuemSomos() {
             <S.Img8 src={Img8} alt="Mariana com buque"/>
         </S.ContainerFinal>
             <S.Titulo> PIX PARA DOAÇÕES :institutosomostodosmarianas@gmail.com</S.Titulo>
+            <ButaoTopo/>
     </S.AllContainer>
 </>
     )
