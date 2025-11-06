@@ -7,8 +7,12 @@ export const HeaderContainer = styled.header`
   justify-content: center;
   align-items: center;
   height: 7rem;
-  margin-top: -10px
+  margin-top: -10px;
 
+  @media (max-width: 768px) {
+    justify-content: center;
+    height: 6rem;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -17,13 +21,38 @@ export const Nav = styled.nav`
   justify-content: space-around;
   width: 90%;
   padding: 1%;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
-export const Logo = styled.div``;
+export const Logo = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Para garantir que a logo continue visível mesmo quando o nav for ocultado */
+  @media (max-width: 768px) {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+`;
 
 export const LogoImg = styled.img`
   width: 100px;
   height: 100px;
+
+  @media (max-width: 768px) {
+    width: 80px;
+    height: 80px;
+  }
+
+  @media (max-width: 480px) {
+    width: 65px;
+    height: 65px;
+  }
 `;
 
 export const NavList = styled.ul`
@@ -47,15 +76,14 @@ export const NavLink = styled.a`
   padding: 0.7rem;
   transition: all 0.3s ease;
 
-  display: inline-block; /* Impede quebra de linha automática */
-  white-space: nowrap;   /* Mantém o texto todo na mesma linha */
+  display: inline-block; 
+  white-space: nowrap;   
 
   &:hover {
     background-color: #ca6e70;
     color: #f5e0de;
   }
 `;
-
 
 export const VoluntarioButton = styled(NavLink)`
   background-color: #ca6e70;
