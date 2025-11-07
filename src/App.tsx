@@ -1,5 +1,4 @@
 'use client';
-import Teste from './components/teste/teste';
 import { SaibaMaisQuemSomos } from './pages/saiba_mais/saiba_mais_quem_somos';
 
 

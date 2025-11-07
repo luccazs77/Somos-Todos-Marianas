@@ -1,18 +1,24 @@
-import { ButaoTopo } from "../../components/buttonTopo";
+'use client'
+import { BotaoTopo } from "../../components/BotaoTopo";
 import Img16 from "../saiba_mais/imagens/image 16.png";
 import FestaMariana from "../saiba_mais/imagens/Sem título 5.png"
 import Img8 from "../saiba_mais/imagens/Sem título 8.png"
 import * as S from '../saiba_mais_quem_somos_styled'
+import * as F from '../saiba_mais_quem_somos_styled'
+import { BotaoVoluntario } from "../../components/BotaoVoluntario";
+
 export function SaibaMaisQuemSomos() {
     return(
 <>  
     <S.AllContainer>
         <S.ContainerInicial>
             <S.Img16 src={Img16} alt="Foto de Mariana em pé" />
-        
+            
         
                 <S.TextosSobreNosInicio>
-                <S.SobreNos>A Jornada Transformadora da Associação Somos Todos Marianas: Do Luto à Luta Contra o Feminicídio.</S.SobreNos>
+                <S.SobreNos>A Jornada Transformadora da Associação Somos Todos Marianas: Do Luto à Luta Contra o Feminicídio.
+
+                </S.SobreNos>
         
         
                     <S.Texto>Na tarde de 13 de novembro de 2016, o silêncio de São Luís foi quebrado por um grito que nunca deveria ter existido. Mariana Costa, uma jovem publicitária cheia de sonhos, teve sua vida brutalmente interrompida, vítima de feminicídio. Naquele momento, não sabíamos, mas o eco daquele grito iria se transformar em um movimento que mudaria para sempre a luta contra a violência de gênero no Maranhão. </S.Texto>
@@ -37,12 +43,17 @@ export function SaibaMaisQuemSomos() {
                 <S.Titulo>O Futuro que Sonhamos Construir</S.Titulo>
                 <S.Texto>Olhando para o futuro, nossa visão é clara: um Maranhão, e um Brasil, onde nenhuma mulher tema por sua vida pelo simples fato de ser mulher. Sabemos que é um sonho ambicioso, mas como dizia Mariana, “sonhos não têm limites quando acreditamos neles”.Nossos desafios continuam enormes. A prevenção através da educação, o apoio jurídico às vítimas, a sustentabilidade financeira da associação e a ampliação do nosso alcance são batalhas diárias. Mas cada vida salva, cada lei aprovada, cada consciência transformada nos dá a certeza de que estamos no caminho certo.A Associação Somos Todos Marianas não é apenas uma organização; é um movimento, um grito de esperança, um abraço coletivo que diz a cada mulher: “Você não está sozinha”. Enquanto houver uma única mulher em risco, continuaremos nossa luta. Porque, no fim das contas, a verdade que descobrimos nessa jornada é que realmente somos todos Marianas – e juntos, somos invencíveis.</S.Texto>
             </S.TextosSobreNosFinal>
+            
 
             
             <S.Img8 src={Img8} alt="Mariana com buque"/>
         </S.ContainerFinal>
-            <S.Titulo> PIX PARA DOAÇÕES :institutosomostodosmarianas@gmail.com</S.Titulo>
-            <ButaoTopo/>
+            <F.footer>
+                <S.Titulo> PIX PARA DOAÇÕES :institutosomostodosmarianas@gmail.com</S.Titulo>
+                <BotaoTopo />
+                <BotaoVoluntario/>
+                
+            </F.footer>
     </S.AllContainer>
 </>
     )

@@ -209,3 +209,11 @@ export const TextosSobreNosFinal = styled.div`
   }
 `;
 
+
+export const footer = styled.footer`
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+`
+
