@@ -7,6 +7,7 @@ export const Container = styled.div`
   background-color: #A28181;
   font-family: "Poppins", sans-serif;
   width: 100%;
+  height: 100%;
   color: #010101;
 `;
 
@@ -14,7 +15,7 @@ export const ContentWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 80px;
+  gap: 150px;
 
   flex-wrap: wrap; /* para responsividade */
 `;
@@ -30,12 +31,16 @@ export const TextoH1 = styled.h1`
   font-size: 45px;
   margin-bottom: 20px;
   text-align: left;
+  margin-top: 150px;
+  text-align: center;
 `;
 
 export const Subtitulo = styled.p`
   line-height: 1.6;
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 20px;
+  margin-top: -10px;
+  text-align: center;
 `;
 
 export const PixBox = styled.div`
@@ -72,9 +77,9 @@ export const PixBox = styled.div`
 `;
 
 export const ImgQRC = styled.img`
-  height: 50vh;
+  height: 35vh;
   border-radius: 8px;
-  margin-top: 15%;
+  margin-top: 25%;
 `;
 
 export const Button = styled.button`
@@ -88,8 +93,16 @@ export const Button = styled.button`
   cursor: pointer;
   transition: 0.3s;
   width: fit-content;
+  display: flex;
+  justify-content: center;
 
   &:hover {
     background-color: #a13d3f;
   }
+`;
+export const Butonn = styled.div` 
+  display: flex;
+  justify-content: center;
+ 
+
 `;

@@ -32,8 +32,10 @@ export function Apoiador() {
               Juntos, podemos e vamos acabar com o feminicídio!
             </p>
           </S.PixBox>
-
-          <S.Button>Seja um voluntário</S.Button>
+          <S.Butonn>
+               <S.Button>Seja um voluntário</S.Button>
+          </S.Butonn>
+         
         </S.TextContent>
 
         <S.ImgQRC src={logo} alt="QR Code para doações" />
