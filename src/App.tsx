@@ -2,9 +2,10 @@
 
 import { Apoiador } from './components/teste/Seja-um-apoiador/Apoiador';
 import './App.css';
+import { Contato } from './components/Tela-de-contato/Contato';
 
 function App() {
-  return  <Apoiador/> 
+  return  <Contato/> 
 }
 
 export default App;
