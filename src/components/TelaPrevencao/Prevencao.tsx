@@ -1,6 +1,7 @@
 'use client';
 import Prevencao1 from "../../assets/Prevencao1.png"
 import Prevencao2 from "../../assets/Prevencao2.png"
+import { ButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPreVol";
 import { Header } from "../../presentation/shared/Header/header";
 import * as S from "./Prevenao-styler"
 
@@ -36,7 +37,21 @@ export function Prevencao() {
                         gênero no Maranhão...</p>
                 </S.Textoprevencao>
                 </S.TextContent>
+
+                <S.Test>
+
+                     <ButtonLink href="/sobre" variant="outlined">
+                        Saiba mais
+                     </ButtonLink>
+
+                    <ButtonLink href="/voluntario" variant="filled">
+                        Seja um voluntário
+                    </ButtonLink>
+
+                </S.Test>
+                 
             </S.ContentWrapper>
+     
         </S.Container>   
 </> 
     )

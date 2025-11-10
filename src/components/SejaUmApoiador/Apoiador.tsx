@@ -11,15 +11,15 @@ export function Apoiador() {
 
       <S.ContentWrapper>
         <S.TextContent>
-          <S.TextoH1>Contribua e Seja um <br /> Doador</S.TextoH1>
-          <S.Subtitulo>
+          <S.Title>Contribua e Seja um <br /> Doador</S.Title>
+          <S.Subtitle>
             Como Sua Doação Faz a Diferença <br />
             Sua doação é mais do que um gesto; é um investimento direto na vida de <br /> 
             mulheres que precisam de apoio. Cada real doado é utilizado de forma <br /> 
             estratégica para maximizar o impacto e garantir que os recursos <br /> 
             cheguem a quem mais precisa. Priorizamos a eficiência e a transparência <br /> 
             em todas as etapas, desde a captação até a aplicação dos recursos.
-          </S.Subtitulo>
+          </S.Subtitle>
 
           <S.PixBox>
             <p><span>PIX PARA DOAÇÕES:</span></p>
@@ -32,13 +32,13 @@ export function Apoiador() {
               Juntos, podemos e vamos acabar com o feminicídio!
             </p>
           </S.PixBox>
-          <S.Butonn>
-               <S.Button>Seja um voluntário</S.Button>
-          </S.Butonn>
+          <S.SecondaryButton>
+               <S.ButtonGroup>Seja um voluntário</S.ButtonGroup>
+          </S.SecondaryButton>
          
         </S.TextContent>
 
-        <S.ImgQRC src={logo} alt="QR Code para doações" />
+        <S.QRCodeImage src={logo} alt="QR Code para doações" />
       </S.ContentWrapper>
     </S.Container>
   );

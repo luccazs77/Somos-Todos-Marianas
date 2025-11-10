@@ -4,54 +4,71 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #A28181;
-  font-family: "Poppins", sans-serif;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
+  background-color: #a28181;
   color: #010101;
+  font-family: "Poppins", sans-serif;
+  padding: 40px 20px;
 `;
 
 export const ContentWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 150px;
+  gap: 120px;
+  flex-wrap: wrap; /* Para telas menores */
+  width: 100%;
+  max-width: 1200px;
 
-  flex-wrap: wrap; /* para responsividade */
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
 `;
 
 export const TextContent = styled.div`
   display: flex;
   flex-direction: column;
   max-width: 600px;
-  text-align: left;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+  }
 `;
 
-export const TextoH1 = styled.h1`
+export const Title = styled.h1`
   font-size: 45px;
-  margin-bottom: 20px;
-  text-align: left;
-  margin-top: 150px;
-  text-align: center;
+  font-weight: 700;
+  margin: 80px 0 10px 0;
 `;
 
-export const Subtitulo = styled.p`
-  line-height: 1.6;
-  font-size: 17px;
+export const Subtitle = styled.h2`
+  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 20px;
-  margin-top: -10px;
-  text-align: center;
+`;
+
+export const Paragraph = styled.p`
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 20px;
 `;
 
 export const PixBox = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: #E3C7C5;
-  border: 4px solid #BD4A4C;
-  padding: 16px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  align-items: center;
+  background-color: #e3c7c5;
+  border: 3px solid #bd4a4c;
+  border-radius: 10px;
+  padding: 20px;
   width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 
   p {
     margin: 6px 0;
@@ -61,10 +78,10 @@ export const PixBox = styled.div`
 
   span {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
   }
 
-  .Pix-row {
+  .pix-row {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -76,33 +93,48 @@ export const PixBox = styled.div`
   }
 `;
 
-export const ImgQRC = styled.img`
-  height: 35vh;
+export const QRCodeImage = styled.img`
+  height: 260px;
   border-radius: 8px;
-  margin-top: 25%;
+  margin-top: 60px;
+
+  @media (max-width: 1024px) {
+    margin-top: 20px;
+  }
 `;
 
-export const Button = styled.button`
-  background-color: #BD4A4C;
-  color: white;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s;
-  width: fit-content;
+export const ButtonGroup = styled.div`
   display: flex;
   justify-content: center;
+  gap: 16px;
+  margin-top: 30px;
+`;
+
+export const PrimaryButton = styled.button`
+  display: flex;
+  justify-content: center;
+  background-color: #bd4a4c;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: fit-content;
 
   &:hover {
     background-color: #a13d3f;
   }
 `;
-export const Butonn = styled.div` 
-  display: flex;
-  justify-content: center;
- 
 
+export const SecondaryButton = styled(PrimaryButton)`
+  background-color: #f5d5d4;
+  color: #bd4a4c;
+  border: 2px solid #bd4a4c;
+
+  &:hover {
+    background-color: #f0c1c0;
+  }
 `;
