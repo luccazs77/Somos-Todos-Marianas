@@ -1,10 +1,10 @@
-'use client';
-import { SaibaMaisQuemSomos } from './pages/saiba_mais/saiba_mais_quem_somos';
-
+import { SaibaMaisQuemSomos } from "./pages/saiba-mais-sobre-nos/saiba_mais_quem_somos.tsx";
 
 
 function App() {
-  return <SaibaMaisQuemSomos />;
+  return (
+<SaibaMaisQuemSomos/>
+  );
 }
 
 export default App;

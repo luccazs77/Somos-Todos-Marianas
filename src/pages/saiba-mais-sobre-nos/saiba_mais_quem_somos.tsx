@@ -1,11 +1,10 @@
 'use client'
-import { BotaoTopo } from "../../components/BotaoTopo";
-import Img16 from "../saiba_mais/imagens/image 16.png";
-import FestaMariana from "../saiba_mais/imagens/Sem título 5.png"
-import Img8 from "../saiba_mais/imagens/Sem título 8.png"
-import * as S from '../saiba_mais_quem_somos_styled'
-import * as F from '../saiba_mais_quem_somos_styled'
-import { BotaoVoluntario } from "../../components/BotaoVoluntario";
+import { BotaoTopo } from "../../components/botao_topo/BotaoTopo";
+import Img16 from "/imagens/image16.png"
+import FestaMariana from "/imagens/Sem título 5.png"
+import Img8 from "/imagens/Sem título 8.png"
+import * as S from './saiba_mais_quem_somos.styled'       
+import { BotaoVoluntario } from "../../components/botao_voluntario/BotaoVoluntario";
 
 export function SaibaMaisQuemSomos() {
     return(
@@ -48,12 +47,12 @@ export function SaibaMaisQuemSomos() {
             
             <S.Img8 src={Img8} alt="Mariana com buque"/>
         </S.ContainerFinal>
-            <F.footer>
+            <S.footer>
                 <S.Titulo> PIX PARA DOAÇÕES :institutosomostodosmarianas@gmail.com</S.Titulo>
                 <BotaoTopo />
                 <BotaoVoluntario/>
                 
-            </F.footer>
+            </S.footer>
     </S.AllContainer>
 </>
     )

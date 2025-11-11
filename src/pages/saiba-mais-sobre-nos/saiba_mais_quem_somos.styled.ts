@@ -13,6 +13,7 @@ export const Img16 = styled.img`
 
   @media (max-width: 1024px) {
     width: 50%;
+    display:none;
     
   }
 
@@ -215,5 +216,18 @@ export const footer = styled.footer`
   width: 70%;
   justify-content: space-between;
   align-items: center;
+  gap: 1%;
+
+    @media (max-width: 768px) {
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 400px) {
+    text-align: center;
+  }
 `
+
+
 
