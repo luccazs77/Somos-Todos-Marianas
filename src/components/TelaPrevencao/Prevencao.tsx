@@ -10,7 +10,6 @@ import * as S from "./Prevenao-styler"
 
 export function Prevencao() {
     return(
-       <><Header/>
        <S.Container>
             
             <S.Imapre>
@@ -53,6 +52,6 @@ export function Prevencao() {
             </S.ContentWrapper>
      
         </S.Container>   
-</> 
+
     )
 }

@@ -7,7 +7,7 @@ import { Prevencao } from './components/TelaPrevencao/Prevencao';
 
 
 function App() {
-  return  <Apoiador/>
+  return  <Prevencao/>
 }
 
 export default App;

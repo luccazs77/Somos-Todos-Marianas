@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-
+  height: 100%;
   align-items: center;
   justify-content: center;
   background-color: #a28181;
@@ -37,14 +37,14 @@ export const Imapre = styled.div`
   gap: 30px;
 
   img {
-    width: 100%;
-    max-width: 550px;
+    width: 450px;
+    max-width: 600px;
     border-radius: 8px;
   }
 
   @media (max-width: 1366px) {
     img {
-      max-width: 298px;
+      max-width: 608px;
     }
   }
 
@@ -62,7 +62,7 @@ export const Imapre = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
 
   @media (max-width: 1024px) {
@@ -76,57 +76,27 @@ export const ContentWrapper = styled.div`
 
 export const TextContent = styled.div`
   h1 {
-    font-size: 60px;
+    font-size: 33px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 
     line-height: 1.1;
 
-    @media (max-width: 1366px) {
-      font-size: 34px;
+}
 
-    }
+p{
+font-size: 20px;
+}
 
-    @media (max-width: 1024px) {
-      font-size: 40px;
-    }
-
-    @media (max-width: 768px) {
-      font-size: 32px;
-    }
-
-    @media (max-width: 480px) {
-      font-size: 26px;
-    }
-  }
 `;
 
 export const Textoprevencao = styled.div`
-  line-height: 1.6;
-  font-size: 22px;
   margin-top: 20px;
   text-align: center;
   letter-spacing: 1px;
   color: #010101;
-
-  @media (max-width: 1366px) {
-    font-size: 16px;
-  }
-
-  @media (max-width: 1024px) {
-    font-size: 18px;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 16px;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 15px;
-  }
-
-
+  font-size: 16px;
 `;
 export const Test = styled.div`
   margin-left: 23%;
