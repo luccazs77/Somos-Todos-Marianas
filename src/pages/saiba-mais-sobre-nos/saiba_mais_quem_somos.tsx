@@ -3,15 +3,15 @@ import { BotaoTopo } from "../../components/botao_topo/BotaoTopo";
 import Img16 from "/imagens/image16.png"
 import FestaMariana from "/imagens/Sem título 5.png"
 import Img8 from "/imagens/Sem título 8.png"
-import * as S from './saiba-mais-quem-somos-styled'       
+import * as S from './saiba_mais_quem_somos.styled'       
 import { BotaoVoluntario } from "../../components/botao_voluntario/BotaoVoluntario";
-
+import { Header } from "../../presentation/shared/Header/header";
 
 export function SaibaMaisQuemSomos() {
     return(
 <>  
     <S.AllContainer>
-        
+         <Header/>
         <S.ContainerInicial>
            
 
