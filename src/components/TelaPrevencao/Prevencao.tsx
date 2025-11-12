@@ -11,7 +11,6 @@ import * as S from "./Prevenao-styler"
 export function Prevencao() {
     return(
        <S.Container>
-            
             <S.Imapre>
             <img src={Prevencao1} alt="" />
             <img src={Prevencao2} alt="" />

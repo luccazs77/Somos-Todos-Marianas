@@ -11,9 +11,8 @@ export function SaibaMaisQuemSomos() {
     return(
 <>  
     <S.AllContainer>
-         <Header/>
+        <Header/>
         <S.ContainerInicial>
-           
 
             <S.Img16 src={Img16} alt="Foto de Mariana em pé" />
             
