@@ -9,6 +9,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
   color: #010101;
+  margin-top: 10px;
 `;
 
 export const ContentWrapper = styled.div`
@@ -83,7 +84,7 @@ export const ImgQRC = styled.img`
 `;
 
 export const Button = styled.button`
-  background-color: #BD4A4C;
+  background-color: #A28181;
   color: white;
   padding: 12px 24px;
   font-size: 16px;

@@ -5,7 +5,7 @@ export const ButtonGroup = styled.div`
   justify-content: center;
   align-items: center;
   gap: 25px;
-  flex-wrap: wrap; /* quebra linha no mobile */
+  flex-wrap: wrap; 
 
   @media (max-width: 768px) {
     gap: 15px;
@@ -30,7 +30,7 @@ export const StyledButtonLink = styled.a<{ $variant: "outlined" | "filled" }>`
   ${({ $variant }) =>
     $variant === "outlined"
       ? css`
-          padding: 5px 15px;
+          padding: 15px 25px;
           font-size: 16px;
           background-color: #f5e0de;
           color: #b45f5f;
@@ -43,7 +43,7 @@ export const StyledButtonLink = styled.a<{ $variant: "outlined" | "filled" }>`
           }
         `
       : css`
-          padding: 5px 15px;
+          padding: 15px 25px;
           font-size: 16px;
           background-color: #b45f5f;
           color: #fff;
