@@ -1,9 +1,8 @@
 import styled from "styled-components";
 export const Container = styled.div`
-display: flex;
-width: 100%;
-
-flex-direction: colun;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -37,6 +36,11 @@ export const ImagemFoto = styled.div`
   gap: 20px;
   margin-left: 10%;
 
+  
 
+`
+export const Section = styled.div`
+
+  
 
 `
