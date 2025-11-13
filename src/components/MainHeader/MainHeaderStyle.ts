@@ -16,7 +16,7 @@ export const ContainerMae = styled.div`
     Ou use calc(100vh - 80px) se souber a altura do seu Header (ex: 80px).
     Vou usar 85vh como um valor padrão. Ajuste como precisar.
   */
-  height: 89vh;
+  height: 87vh;
   display: flex; /* <-- Este é o comando mais importante! */
   overflow: hidden;
 
