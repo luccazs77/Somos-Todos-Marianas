@@ -1,9 +1,9 @@
 'use client';
-import Teste from './components/teste/teste';
-import './App.css';
+import {Dor} from "./components/teste/nossaDor/nossa-dor"
+
 
 function App() {
-  return <Teste />;
+  return <Dor/>;
 }
 
 export default App;
