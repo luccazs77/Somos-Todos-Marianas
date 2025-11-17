@@ -5,6 +5,7 @@ import { MainHeader } from "./components/MainHeader/MainHeader";
 import { Dor } from "./components/nossaDor/nossa-dor";
 import { Prevencao } from "./components/TelaPrevencao/Prevencao";
 import { SaibaMaisQuemSomos } from "./components/SaibaMaisQuemSomos/saiba-mais-quem-somos";
+import { Contato } from "./components/contato/contato";
 
 
 function App() {
@@ -12,18 +13,7 @@ function App() {
     <>
       <Header />
 
-      <Routes>
-        <Route path="/inicio" element={<MainHeader />} />
-        
-        <Route path="/apoiador" element={<Apoiador />} />
-        <Route path="/quem-somos" element={<Dor />} />
-        <Route path="/prevencao" element={<Prevencao />} />
-         <Route path="/sobre" element={<SaibaMaisQuemSomos/>} />
-       
-       
-
-       quem-somos
-      </Routes>
+     <Contato/>
     </>
   );
 }
