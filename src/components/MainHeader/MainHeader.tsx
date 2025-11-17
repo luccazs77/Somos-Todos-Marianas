@@ -6,7 +6,6 @@ import { Header } from "../../presentation/shared/Header/header";
 export function MainHeader() {
   return (
     <S.ContainerPai>
-      <Header />
       <S.ContainerMae>
         <S.BgLogo src={LogoMainHeader} alt="background Marianas" />
         <S.FotoMariana src={MarianaMainHeader} alt="foto Mariana" />

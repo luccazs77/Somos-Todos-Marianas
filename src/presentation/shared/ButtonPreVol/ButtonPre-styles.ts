@@ -1,18 +1,19 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
 
 export const ButtonGroup = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 
   @media (max-width: 768px) {
     gap: 15px;
   }
 `;
 
-export const StyledButtonLink = styled.a<{ $variant: "outlined" | "filled" }>`
+export const StyledButtonLink = styled(Link)<{ $variant: "outlined" | "filled" }>`
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -54,7 +55,7 @@ export const StyledButtonLink = styled.a<{ $variant: "outlined" | "filled" }>`
             transform: translateY(-2px);
           }
         `}
-
+  
   @media (max-width: 768px) {
     ${({ $variant }) =>
       $variant === "outlined"

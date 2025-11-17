@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from "./ButtonPre-styles";
 
+
 interface ButtonLinkProps {
   href: string;
   variant?: "outlined" | "filled";
@@ -9,7 +10,7 @@ interface ButtonLinkProps {
 
 export function ButtonLink({ href, variant = "outlined", children }: ButtonLinkProps) {
   return (
-    <S.StyledButtonLink href={href} $variant={variant}>
+    <S.StyledButtonLink to={href} $variant={variant}>
       {children}
     </S.StyledButtonLink>
   );

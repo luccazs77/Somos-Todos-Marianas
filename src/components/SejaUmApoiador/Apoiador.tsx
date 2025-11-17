@@ -7,7 +7,6 @@ import { Header } from "../../presentation/shared/Header/header";
 export function Apoiador() {
   return (
     <S.Container>
-          <Header/>
       <S.ContentWrapper>
         <S.TextContent>
           <S.TextoH1>Contribua e Seja um <br /> Doador</S.TextoH1>
