@@ -1,5 +1,5 @@
 import { Instagram, Mail, Youtube } from "lucide-react";
-import Arte from "";
+import Arte from "../../assets/Logo_SomosTodosMariana(1) 3.png";
 import { Contact, Container, LeftSide, List, Partners, RightSide } from "../contato/contato-styled";
 export function Contato() {
   return(
