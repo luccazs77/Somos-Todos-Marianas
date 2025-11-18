@@ -30,7 +30,7 @@ export function Apoiador() {
               Transforme sua responsabilidade social em ação concreta. <br />
               Juntos, podemos e vamos acabar com o feminicídio!
             </p>
-          </S.PixBox>n
+          </S.PixBox>
           <S.Butonn>
                <S.Button>Seja um voluntário</S.Button>
           </S.Butonn>
