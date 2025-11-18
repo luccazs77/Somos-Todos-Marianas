@@ -6,7 +6,7 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 7rem;
+  height: 8rem;
   margin-top: -10px;
 
   @media (max-width: 768px) {
