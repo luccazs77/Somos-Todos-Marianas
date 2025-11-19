@@ -11,9 +11,9 @@ function App() {
   return (
     <>
       <Header />
-
       <Routes>
         <Route path="/quem-somos" element={<Dor />} />
+        <Route path="/" element={<MainHeader />} />
         <Route path="/inicio" element={<MainHeader />} />
         <Route path="/prevencao" element={<Prevencao />} />
         <Route path="/apoiador" element={<Apoiador />} />
