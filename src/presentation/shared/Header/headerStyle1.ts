@@ -10,7 +10,6 @@ export const HeaderContainer = styled.header`
   margin-top: -10px;
 
   @media (max-width: 768px) {
-    justify-content: center;
     height: 6rem;
   }
 `;
@@ -18,26 +17,16 @@ export const HeaderContainer = styled.header`
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 90%;
   padding: 1%;
-
-  @media (max-width: 768px) {
-    display: none;
-  }
 `;
 
+// Logo sempre visível, centralizada no mobile
 export const Logo = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* Para garantir que a logo continue visível mesmo quando o nav for ocultado */
-  @media (max-width: 768px) {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
 `;
 
 export const LogoImg = styled.img`
@@ -55,19 +44,50 @@ export const LogoImg = styled.img`
   }
 `;
 
-export const NavList = styled.ul`
+// Botão de menu (hambúrguer) – aparece só no mobile
+export const MobileMenuButton = styled.button`
+  display: none;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  color: #ca6e70;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`;
+
+// Lista de links: horizontal no desktop, menu suspenso no mobile
+export const NavList = styled.ul<{ $open: boolean }>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   list-style-type: none;
+
+  @media (max-width: 768px) {
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    background-color: #f5e0de;
+    border-top: 0.1rem solid #ca6e70;
+
+    /* Abre/fecha o menu conforme o estado vindo do React */
+    display: ${({ $open }) => ($open ? "flex" : "none")};
+  }
 `;
 
 export const NavItem = styled.li``;
 
 export const NavLink = styled.a`
   text-decoration: none;
-  border-radius: 999rem;
+  border-radius: 1.5rem;
   background-color: #f5e0de;
   border: 0.1rem solid #ca6e70;
   font-weight: 900;
@@ -75,13 +95,19 @@ export const NavLink = styled.a`
   font-family: "Roboto", sans-serif;
   padding: 0.7rem;
   transition: all 0.3s ease;
-
-  display: inline-block; 
-  white-space: nowrap;   
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 22px;
 
   &:hover {
     background-color: #ca6e70;
     color: #f5e0de;
+
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
   }
 `;
 

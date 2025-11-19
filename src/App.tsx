@@ -1,13 +1,24 @@
 
-import { MainHeader } from "./components/MainHeader/MainHeader";
-import { Dor } from "./components/nossaDor/nossa-dor";
+// src/App.tsx
+/*import React from "react";
+import { GlobalStyle } from "../src/components/carrosel/CarroselStyle"; // ou de onde você declarou
+import AcoesSection from "../src/components/carrosel/Carrosel";    // caminho até o arquivo TSX
+import { Justica } from "./components/JusticaTransformacao/JusticaTransformacao";
+import { MainHeader } from "../src/components/MainHeader/MainHeader";*/
+import { Prevencao } from "./components/TelaPrevencao/Prevencao";
+import { Header } from "./presentation/shared/Header/header2";
+
+
 
 
 function App() {
-  return  (
-    <MainHeader/>
-  )
-}
+  return (
+    <>
 
+  <Prevencao/>
+      
+   </>
+  );
+}
 
 export default App;

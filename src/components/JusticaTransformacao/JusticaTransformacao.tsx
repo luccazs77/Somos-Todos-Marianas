@@ -6,11 +6,11 @@ import {
   Textoh1,
   ImagemFoto,
   VideoFrame,
-} from "./PrevencaoStyle";
-import { ButtonsWrapper, PrimaryButton, SecondaryButton } from "./PrevencaoStyle";
+} from "./JusticaTransformacaoStyle";
+import { ButtonsWrapper, PrimaryButton, SecondaryButton } from "./JusticaTransformacaoStyle";
 
-export function Prevencao() {
-  const videoId = "bhsFknYk2V4";
+export function Justica() {
+  const videoId = "V49XDEsVXYs";
 
   return (
     <>
