@@ -2,7 +2,7 @@
 import logo from "../../assets/QRC.png";
 import Pixlogo from "../../assets/PX.png";
 import * as S  from "./Apoiador-styler";
-import { Header } from "../../presentation/shared/Header/header";
+import { Header } from "../Header/header";
 
 export function Apoiador() {
   return (

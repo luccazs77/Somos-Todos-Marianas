@@ -10,7 +10,7 @@ import {
   NavLink,
   VoluntarioButton,
 } from "./headerStyle1";
-import logo from "../../../assets/LogoSTM.png"
+import logo from "../../assets/LogoSTM.png"
 
 
 export function Header() {

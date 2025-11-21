@@ -1,4 +1,4 @@
-import { Header } from "../../presentation/shared/Header/header2";
+import { Header } from "../Header/header2";
 import {
   Container,
   DivContainer,

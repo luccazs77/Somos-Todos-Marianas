@@ -1,11 +1,11 @@
 'use client'
-import { BotaoTopo } from "../../components/botao_topo/BotaoTopo";
+import { BotaoTopo } from "../../presentation/shared/botao_topo/BotaoTopo";
 import Img16 from "/imagens/image16.png"
 import FestaMariana from "/imagens/Sem título 5.png"
 import Img8 from "/imagens/Sem título 8.png"
 import * as S from './saiba_mais_quem_somos.styled'       
-import { BotaoVoluntario } from "../../components/botao_voluntario/BotaoVoluntario";
-import { Header } from "../../presentation/shared/Header/header";
+import { BotaoVoluntario } from "../../presentation/shared/botao_voluntario/BotaoVoluntario";
+import { Header } from "../../components/Header/header";
 
 export function SaibaMaisQuemSomos() {
     return(

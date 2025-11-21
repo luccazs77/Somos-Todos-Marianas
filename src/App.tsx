@@ -6,7 +6,13 @@ import AcoesSection from "../src/components/carrosel/Carrosel";    // caminho at
 import { Justica } from "./components/JusticaTransformacao/JusticaTransformacao";
 import { MainHeader } from "../src/components/MainHeader/MainHeader";*/
 import { Prevencao } from "./components/TelaPrevencao/Prevencao";
-import { Header } from "./presentation/shared/Header/header2";
+import { Header } from "./components/Header/header2";
+import { VoluntarioDadosPessoais } from "./components/CadastroDadosPessoais/CadastroDadosPessoais";
+import { VoluntarioInformacoesGerais } from "./components/CadastroInfoGerais/InfoGerais";
+import { VoluntarioAreasInteresse } from "./components/CadastroAreaInteresse/AreaInteresse";
+import { VoluntarioDisponibilidade } from "./components/CadastroDisponibilidade/Disponibilidade";
+import { VoluntarioCertificado } from "./components/CadastroCertificado/Emissao";
+import { VoluntarioDeclaracao } from "./components/CadastroTermos/Termos";
 
 
 
@@ -14,8 +20,11 @@ import { Header } from "./presentation/shared/Header/header2";
 function App() {
   return (
     <>
-
-  <Prevencao/>
+    <VoluntarioDadosPessoais/>
+    <VoluntarioAreasInteresse/>
+    <VoluntarioDisponibilidade/>
+    <VoluntarioCertificado/>
+  <VoluntarioDeclaracao/>
       
    </>
   );
