@@ -7,16 +7,15 @@ import { Header } from "../../presentation/shared/Header/header";
 export function Apoiador() {
   return (
     <S.Container>
-          <Header/>
       <S.ContentWrapper>
         <S.TextContent>
           <S.TextoH1>Contribua e Seja um <br /> Doador</S.TextoH1>
           <S.Subtitulo>
-            Como Sua Doação Faz a Diferença <br />
-            Sua doação é mais do que um gesto; é um investimento direto na vida de <br /> 
-            mulheres que precisam de apoio. Cada real doado é utilizado de forma <br /> 
-            estratégica para maximizar o impacto e garantir que os recursos <br /> 
-            cheguem a quem mais precisa. Priorizamos a eficiência e a transparência <br /> 
+            Como Sua Doação Faz a Diferença 
+            Sua doação é mais do que um gesto; é um investimento direto na vida de 
+            mulheres que precisam de apoio. Cada real doado é utilizado de forma 
+            estratégica para maximizar o impacto e garantir que os recursos 
+            cheguem a quem mais precisa. Priorizamos a eficiência e a transparência 
             em todas as etapas, desde a captação até a aplicação dos recursos.
           </S.Subtitulo>
 
