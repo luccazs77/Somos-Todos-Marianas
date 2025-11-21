@@ -13,7 +13,7 @@ import {
   PrimaryButton,
 } from "./CadastroDadosPessoaisStyle";
 
-// Tipo dos dados do formulário 
+// Tipo dos dados do formulário (boa prática em TS)
 type DadosPessoaisForm = {
   nomeCompleto: string;
   cidade: string;

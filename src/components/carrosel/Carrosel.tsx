@@ -13,10 +13,10 @@ import {
 } from "./CarroselStyle"; // ajuste o caminho conforme seu projeto
 
 // IMPORT das imagens dos cards
-import foto1 from "../../../src/assets/image 19.png";
-import foto2 from "../../../src/assets/image 12.png";
-import foto3 from "../../../src/assets/image 10.png";
-import foto4 from "../../../src/assets/image 18.png";
+import foto1 from "../../../src/assets/AcaoCriancas.png";
+import foto2 from "../../../src/assets/AcaoMulheres.png";
+import foto3 from "../../../src/assets/AcaoPresentes.png";
+import foto4 from "../../../src/assets/AcaoPcd.png";
 
 
 const AcoesSection: React.FC = () => {

@@ -13,6 +13,8 @@ import { VoluntarioAreasInteresse } from "./components/CadastroAreaInteresse/Are
 import { VoluntarioDisponibilidade } from "./components/CadastroDisponibilidade/Disponibilidade";
 import { VoluntarioCertificado } from "./components/CadastroCertificado/Emissao";
 import { VoluntarioDeclaracao } from "./components/CadastroTermos/Termos";
+import AcoesSection from "./components/Carrosel/Carrosel";
+import { MainHeader } from "./components/TelaInicio/MainHeader";
 
 
 
@@ -20,12 +22,7 @@ import { VoluntarioDeclaracao } from "./components/CadastroTermos/Termos";
 function App() {
   return (
     <>
-    <VoluntarioDadosPessoais/>
-    <VoluntarioAreasInteresse/>
-    <VoluntarioDisponibilidade/>
-    <VoluntarioCertificado/>
-  <VoluntarioDeclaracao/>
-      
+    <MainHeader/>
    </>
   );
 }
