@@ -12,7 +12,7 @@ export const BotaoTopoEstilo = styled.button`
   text-orientation: mixed;
 
   height: 1.875rem;
-  padding: 0 1.5rem; /* substitui a largura fixa */
+  padding: 0 1.5rem; 
   border-radius: 100px;
   overflow: hidden;
 
@@ -24,7 +24,7 @@ export const BotaoTopoEstilo = styled.button`
   letter-spacing: 0;
   transition: all 0.3s ease;
 
-  /* 🔑 Evita quebra e corte de texto */
+
   white-space: nowrap;
   word-break: keep-all;
   text-overflow: ellipsis;

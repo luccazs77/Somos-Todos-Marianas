@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import TelaFundo from "/imagens/back_ground.png"
+
 
 export const Img16 = styled.img`
   display: flex;
@@ -12,21 +14,10 @@ export const Img16 = styled.img`
   }
 
   @media (max-width: 1024px) {
-    width: 50%;
     display:none;
     
   }
-
-  @media (max-width: 768px) {
-    width: 70%;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 400px) {
-    width: 85%;
-  }
-`;
+`
 
 export const Img8 = styled.img`
   display: flex;
@@ -39,17 +30,7 @@ export const Img8 = styled.img`
   }
 
   @media (max-width: 1024px) {
-    width: 60%;
-  }
-
-  @media (max-width: 768px) {
-    width: 80%;
-    justify-content: center;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 400px) {
-    width: 95%;
+    display: none;
   }
 `;
 
@@ -60,20 +41,13 @@ export const ImgFesta = styled.img`
   box-sizing: border-box;
 
   @media (max-width: 1024px) {
-    width: 90%;
-  }
-
-  @media (max-width: 768px) {
-    width: 85%;
-  }
-
-  @media (max-width: 400px) {
-    width: 95%;
+   display: none;
   }
 `;
 
 export const AllContainer = styled.body`
-  background-color: #fbeeeC;
+  background-image: url(${TelaFundo});
+
   box-sizing: border-box;
 `;
 
@@ -93,7 +67,7 @@ export const TextosSobreNosInicio = styled.div`
 `;
 
 export const SobreNos = styled.h1`
-  color: #010101;
+  color: #3b141bff;
   padding: 3% 0% 4% 0%;
   text-align: justify;
   max-width: 70%;
@@ -116,12 +90,12 @@ export const SobreNos = styled.h1`
 `;
 
 export const Texto = styled.article`
-  color: #010101;
+  color: #3b141bff;
   font-size: 16px;
   align-self: flex-start;
   padding: 0% 3%;
   text-align: left;
-  font-family: 'Albert Sans', sans-serif;
+  font-family: Roboto;
   box-sizing: border-box;
 
   @media (max-width: 1024px) {
@@ -130,24 +104,24 @@ export const Texto = styled.article`
 
   @media (max-width: 768px) {
     font-size: 14px;
-    padding: 0 5%;
+    padding: 3% 5%;
     text-align: justify;
   }
 
   @media (max-width: 400px) {
     font-size: 13px;
     line-height: 1.4;
-    padding: 0 8%;
+    padding: 3% 8%;
   }
 `;
 
 export const Titulo = styled.h3`
-  color: #111;
+  color: #3b141bff;
   font-size: 22px;
   align-self: flex-start;
-  padding: 0% 0% 0% 3%;
+  padding: 2% 0% 0% 3%;
   text-align: left;
-  font-family: 'Albert Sans', sans-serif;
+  font-family: Roboto;
   box-sizing: border-box;
 
   @media (max-width: 1024px) {
@@ -230,5 +204,27 @@ export const footer = styled.footer`
   }
 `
 
+export const Pix = styled.h3`
+color: #3b141bff;
+  font-size: 22px;
+  align-self: flex-start;
+  padding: 2% 0% 0% 3%;
+  text-align: left;
+  font-family: Roboto;
+  box-sizing: border-box;
 
+  @media (max-width: 1024px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+    padding-right: 5%;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 16px;
+    text-align: center;
+  }
+`
 
