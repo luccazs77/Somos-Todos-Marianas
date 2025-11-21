@@ -59,6 +59,7 @@ export const UmGritoJustica = styled.h1`
   box-sizing: border-box;
   justify-content: center;
   text-align: center;
+  color: #3b141bff;
 
   @media (max-width: 768px) {
     justify-content: center;
@@ -77,6 +78,7 @@ export const TextosIniciais = styled.article`
   gap: 20px;
   font-family: Roboto;
   box-sizing: border-box;
+
 `;
 
 export const ListaInicial = styled.ul`
@@ -111,6 +113,7 @@ export const TituloMeio = styled.h2`
   padding: 3% 0%;
   box-sizing: border-box;
   text-align: center;
+  color: #3b141bff;
 
   @media (max-width: 768px) {
     text-align: justify;
@@ -121,22 +124,21 @@ export const TextoMeio = styled.p`
   font-family: Roboto;
   text-align: justify;
   padding: 0% 1%;
+  font-size: 18px;
+  color: #3b141bff;
 `;
 
-export const ListaMeioOl = styled.ol`
+export const ListaUl = styled.ul`
   padding: 1% 0%;
   box-sizing: border-box;
 `;
 
-export const ListaMeioUl = styled.ul`
-  padding: 1% 0%;
-  box-sizing: border-box;
-`;
-
-export const ItensListaMeio = styled.li`
+export const ItensLista = styled.li`
   font-family: Roboto;
-  padding: 2% 0%;
+  padding: 1% 0%;
   text-align: justify;
+  font-size: 18px;
+  color: #3b141bff;
 `
 
 export const AllContainer = styled.div`

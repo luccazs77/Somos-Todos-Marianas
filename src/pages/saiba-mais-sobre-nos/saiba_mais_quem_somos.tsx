@@ -47,13 +47,9 @@ export function SaibaMaisQuemSomos() {
             
 
         </S.ContainerFinal>
-            <S.footer>
-                <S.Pix> PIX PARA DOAÇÕES:institutosomostodosmarianas@gmail.com</S.Pix>
-                <BotaoTopo />
-                <BotaoVoluntario/>
-                
-            </S.footer>
-    </S.AllContainer>
+            <BotaoTopo />
+            <BotaoVoluntario/>
+        </S.AllContainer>
 </>
     )
 }

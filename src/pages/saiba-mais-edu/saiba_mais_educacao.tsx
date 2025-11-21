@@ -27,23 +27,23 @@ export function SaibaMaisEdu() {
               projeto se dedica a:
             </S.TextoMeio>
 
-            <S.ListaMeioUl>
+            <S.ListaUl>
 
-              <S.ItensListaMeio>
+              <S.ItensLista>
                 Utilizando informação como ferramenta de prevenção, empoderamento e orientação para que mulheres reconheçam sinais de abuso e conheçam seus direitos.
-              </S.ItensListaMeio>
+              </S.ItensLista>
 
-              <S.ItensListaMeio>
+              <S.ItensLista>
                 Promover a equidade de gênero em todos os níveis da sociedade:
                 Acreditamos que a igualdade de gênero é fundamental para
                 construir uma sociedade mais justa e pacífica.
-              </S.ItensListaMeio>
+              </S.ItensLista>
 
-              <S.ItensListaMeio>
+              <S.ItensLista>
                 Realizar ações práticas que promovem equidade e proteção, como workshops e campanhas de conscientização: Incluindo atividades de autodefesa, debates sobre direitos das mulheres, conteúdos educativos e mobilização social para combater o ciclo da violência e incentivar a denúncia.
-              </S.ItensListaMeio>
+              </S.ItensLista>
 
-            </S.ListaMeioUl></S.TextoMeio>
+            </S.ListaUl></S.TextoMeio>
            
 
         </S.InfoInicial>
@@ -72,29 +72,29 @@ export function SaibaMaisEdu() {
               
               <S.TituloMeio>Como você pode ajudar: </S.TituloMeio>
 
-              <S.ListaMeioUl>
+              <S.ListaUl>
 
-                <S.ItensListaMeio>
+                <S.ItensLista>
                   Voluntarie-se: Compartilhe suas habilidades em workshops, no apoio administrativo ou oferecendo mentoria às participantes.
-                </S.ItensListaMeio>
+                </S.ItensLista>
                 
-                <S.ItensListaMeio>
+                <S.ItensLista>
                   Doe: Contribua financeiramente para ampliar nossas ações, ajudando a custear materiais, espaços e bolsas de estudo.
-                </S.ItensListaMeio>
+                </S.ItensLista>
 
-                <S.ItensListaMeio>
+                <S.ItensLista>
                   Compartilhe: Divulgue nossas campanhas nas redes sociais para aumentar o alcance e fortalecer a conscientização.
-                </S.ItensListaMeio>
+                </S.ItensLista>
                 
-                <S.ItensListaMeio>
+                <S.ItensLista>
                   Eduque-se: Busque conhecimento sobre violência de gênero por meio de livros, documentários e palestras, fortalecendo sua capacidade de agir.
-                </S.ItensListaMeio>
+                </S.ItensLista>
 
-                <S.ItensListaMeio>
+                <S.ItensLista>
                   Denuncie: Não silencie a violência. Ligue 180 e ajude a proteger vítimas e responsabilizar agressores.
-                </S.ItensListaMeio>
+                </S.ItensLista>
 
-              </S.ListaMeioUl>
+              </S.ListaUl>
               
 
             </S.ContainerTexto>
