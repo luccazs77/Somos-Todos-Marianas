@@ -37,19 +37,15 @@ export function SaibaMaisQuemSomos() {
             <S.Img16 src={Img16} alt="Foto de Mariana em pé"/>
         </S.ContainerInicial>
         
-        
-        <S.ContainerFinal>
-            <S.TextosSobreNosFinal>
-                
-            </S.TextosSobreNosFinal>
-            
-
-            
-
-        </S.ContainerFinal>
-            <BotaoTopo />
-            <BotaoVoluntario/>
-        </S.AllContainer>
+        <S.BotoesContainer>
+             <div>
+            <BotaoTopo></BotaoTopo>
+          </div>
+          <div>
+            <BotaoVoluntario></BotaoVoluntario>
+          </div>
+        </S.BotoesContainer>
+    </S.AllContainer>
 </>
     )
 }

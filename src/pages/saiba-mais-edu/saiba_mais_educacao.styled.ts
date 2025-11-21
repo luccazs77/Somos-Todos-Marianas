@@ -163,21 +163,25 @@ export const ContainerTexto = styled.div`
   box-sizing: border-box;
 `;
 
-export const Botoes = styled.div`
+
+export const BotoesContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 2%;
   padding-top: 3%;
   box-sizing: border-box;
 
+
+
   @media (max-width: 768px) {
-    flex-direction: row;
-    padding-top: 5%;
-    gap: 5%;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
   }
+  
 `;
 
-export const AllBody = styled.body`
+export const AllBody = styled.div`
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;

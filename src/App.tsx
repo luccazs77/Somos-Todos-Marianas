@@ -10,7 +10,7 @@ import { Dor } from "./components/nossaDor/nossa-dor";
 function App() {
   return (
 <>
-<SaibaMaisQuemSomos />
+<SaibaMaisEdu/>
 </>
   );
 }

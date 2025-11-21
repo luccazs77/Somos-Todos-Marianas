@@ -113,14 +113,14 @@ export function SaibaMaisEdu() {
             </S.TextoMeio>
         </S.TextosMeio>
         
-        <S.Botoes>
+        <S.BotoesContainer> 
           <div>
             <BotaoTopo></BotaoTopo>
           </div>
           <div>
             <BotaoVoluntario></BotaoVoluntario>
           </div>
-        </S.Botoes>
+        </S.BotoesContainer>
 
       </S.AllBody>
     </>

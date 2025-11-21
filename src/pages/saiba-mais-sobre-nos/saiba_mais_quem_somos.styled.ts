@@ -47,7 +47,7 @@ export const ImgFesta = styled.img`
   }
 `;
 
-export const AllContainer = styled.body`
+export const AllContainer = styled.div`
   background-image: url(${TelaFundo});
   box-sizing: border-box;
   width: 80%;
@@ -194,13 +194,14 @@ export const TextosSobreNosFinal = styled.div`
 `;
 
 
-export const footer = styled.div`
+
+export const BotoesContainer = styled.div`
   display: flex;
-  width: 70%;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   gap: 2%;
-  flex-direction: column;
+  padding-top: 3%;
+  box-sizing: border-box;
+
 
     @media (max-width: 768px) {
     align-items: center;
@@ -210,7 +211,7 @@ export const footer = styled.div`
 
   @media (max-width: 400px) {
     text-align: center;
+     flex-direction: column;
   }
-`
-
+`;
 
