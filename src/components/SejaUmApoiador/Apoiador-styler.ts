@@ -28,7 +28,7 @@ export const TextContent = styled.div`
 `;
 
 export const TextoH1 = styled.h1`
-  font-size: 45px;
+  font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
   margin-top: 150px;
@@ -36,7 +36,7 @@ export const TextoH1 = styled.h1`
 
 export const Subtitulo = styled.p`
   line-height: 1.6;
-  font-size: 17px;
+  font-size: 25px;
   margin-bottom: 20px;
   margin-top: -10px;
   text-align: center;
