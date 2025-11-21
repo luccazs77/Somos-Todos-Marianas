@@ -2,32 +2,26 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  height: 100%;
+  width: 100%;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #a28181;
+  height: 100vh;
+  background-color: #A28181;
+  color: #000000;
   font-family: "Poppins", sans-serif;
+`;
+export const Pagprevencao = styled.div`
+  display: flex;
   width: 100%;
-  color: #010101;
-  gap: 5%;
-  padding: 80px 5%;
-
-  @media (max-width: 1366px) {
-    gap: 50px;
-    padding: 60px 5%;
-  }
-
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    gap: 40px;
-    padding: 60px 4%;
-  }
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    gap: 30px;
-    padding: 40px 3%;
-  }
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #A28181;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+ 
 `;
 
 export const Imapre = styled.div`
@@ -64,6 +58,7 @@ export const Imapre = styled.div`
 export const ContentWrapper = styled.div`
   max-width: 700px;
   text-align: center;
+  margin-left: 5%;
 
   @media (max-width: 1024px) {
     margin: 0;

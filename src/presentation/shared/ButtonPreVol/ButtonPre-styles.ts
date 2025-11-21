@@ -25,7 +25,7 @@ export const StyledButtonLink = styled.a<{ $variant: "outlined" | "filled" }>`
   cursor: pointer;
   line-height: 1;
   margin-top: 10%;
-  margin-left: 2%;
+
 
   ${({ $variant }) =>
     $variant === "outlined"
