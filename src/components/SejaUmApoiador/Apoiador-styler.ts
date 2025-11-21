@@ -7,9 +7,9 @@ export const Container = styled.div`
   background-color: #A28181;
   font-family: "Poppins", sans-serif;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   color: #010101;
-  margin-top: 10px;
+  padding: 20px;
 `;
 
 export const ContentWrapper = styled.div`
@@ -17,7 +17,17 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   align-items: flex-start;
   gap: 150px;
-  flex-wrap: wrap; /* para responsividade */
+  flex-wrap: wrap;
+
+  @media (max-width: 1024px) {
+    gap: 80px;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
 `;
 
 export const TextContent = styled.div`
@@ -25,21 +35,45 @@ export const TextContent = styled.div`
   flex-direction: column;
   max-width: 600px;
   text-align: left;
+
+  @media (max-width: 768px) {
+    max-width: 90%;
+    text-align: center;
+  }
 `;
 
 export const TextoH1 = styled.h1`
-  font-size: 45px;
+  font-family: "Roboto";
+  font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 120px;
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+    margin-top: 60px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 30px;
+  }
 `;
 
 export const Subtitulo = styled.p`
+  font-family: "Roboto";
   line-height: 1.6;
-  font-size: 17px;
+  font-size: 20px;
   margin-bottom: 20px;
   margin-top: -10px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 
 export const PixBox = styled.div`
@@ -51,17 +85,30 @@ export const PixBox = styled.div`
   border-radius: 8px;
   margin-bottom: 20px;
   width: 100%;
+  max-width: 420px;
 
   p {
     margin: 6px 0;
     color: #000;
     font-size: 16px;
     margin-left: 30px;
+    font-family: "Roboto";
+
+    @media (max-width: 480px) {
+      margin-left: 10px;
+      font-size: 14px;
+      
+    }
   }
 
   span {
     font-size: 18px;
     font-weight: bold;
+
+    @media (max-width: 480px) {
+      font-size: 16px;
+   
+    }
   }
 
   .Pix-row {
@@ -74,17 +121,33 @@ export const PixBox = styled.div`
     width: 25px;
     height: 25px;
     margin-left: -10px;
+
+    @media (max-width: 480px) {
+      width: 20px;
+      height: 20px;
+      margin-left: 0;
+    }
   }
 `;
 
 export const ImgQRC = styled.img`
-  height: 35vh;
+  height: 25vh;
   border-radius: 8px;
   margin-top: 25%;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+    height: 30vh;
+  }
+
+  @media (max-width: 480px) {
+    display: none;
+    height: 35vh;
+  }
 `;
 
 export const Button = styled.button`
-  background-color: #A28181;
+  background-color: #BD4A4C;
   color: white;
   padding: 12px 24px;
   font-size: 16px;
@@ -100,16 +163,24 @@ export const Button = styled.button`
   &:hover {
     background-color: #a13d3f;
   }
+
+  @media (max-width: 480px) {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 `;
 
 export const Butonn = styled.div`
   display: flex;
   justify-content: center;
 `;
+
 export const Ligt = styled.div`
+  p {
+    margin-left: 5px;
 
-p{
-  margin-left: 5px;
-}
+    @media (max-width: 480px) {
+      margin-left: 0;
+    }
+  }
 `;
-
