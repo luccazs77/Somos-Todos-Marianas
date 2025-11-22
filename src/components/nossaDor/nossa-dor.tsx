@@ -12,7 +12,6 @@ import { Container, DivContainer, ImagemFoto, Section, Texto, Textoh1 } from "./
 export function Dor () {
     return (
                 <Container>
-                     <Header/>
                         <DivContainer>
                             <Texto>
                             <Textoh1>NOSSA DOR</Textoh1>

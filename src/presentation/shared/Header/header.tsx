@@ -1,30 +1,54 @@
 import React from "react";
 import logo from "../../../assets/logoz.png"
-import * as S  from "./header-styles";
+import * as S from "./header-styles";
 
 export function Header() {
-
   return (
     <S.HeaderContainer>
       <S.Nav>
         <S.Logo>
-          <S.LogoImg src={logo} alt="S.Logo SOMOSTODOSMARIANAS" />
+          <S.LogoImg src={logo} alt="Logo SOMOSTODOSMARIANAS" />
         </S.Logo>
+
         <S.NavList>
-          <S.NavItem><S.NavLink href="#">Início</S.NavLink></S.NavItem>
-          <S.NavItem><S.NavLink href="#">Quem somos</S.NavLink></S.NavItem>
-          <S.NavItem><S.NavLink href="#">Ações</S.NavLink></S.NavItem>
-          <S.NavItem><S.NavLink href="#">Educação</S.NavLink></S.NavItem>
-          <S.NavItem><S.NavLink href="#">Prevenção</S.NavLink></S.NavItem>
-          <S.NavItem><S.NavLink href="#">Seja um apoiador</S.NavLink></S.NavItem>
+
           <S.NavItem>
-            <S.VoluntarioButton href="#">Seja um voluntário</S.VoluntarioButton>
+            <S.NavLink to="/inicio">Início</S.NavLink>
           </S.NavItem>
-          <S.NavItem><S.NavLink href="#">Contato</S.NavLink></S.NavItem>
+
+          <S.NavItem>
+            <S.NavLink to="/quem-somos">Quem somos</S.NavLink>
+          </S.NavItem>
+
+          <S.NavItem>
+            <S.NavLink to="/acoes">Ações</S.NavLink>
+          </S.NavItem>
+
+          <S.NavItem>
+            <S.NavLink to="/educacao">Educação</S.NavLink>
+          </S.NavItem>
+
+          <S.NavItem>
+            <S.NavLink to="/prevencao">Prevenção</S.NavLink>
+          </S.NavItem>
+
+          <S.NavItem>
+            <S.NavLink to="/apoiador">Seja um apoiador</S.NavLink>
+          </S.NavItem>
+
+          {/* Botão vermelho igual ao da foto */}
+          <S.NavItem>
+            <S.VoluntarioButton to="/voluntario">
+              Seja um voluntário
+            </S.VoluntarioButton>
+          </S.NavItem>
+
+          <S.NavItem>
+            <S.NavLink to="/contato">Contato</S.NavLink>
+          </S.NavItem>
+
         </S.NavList>
       </S.Nav>
     </S.HeaderContainer>
   );
-};
-
-
+}

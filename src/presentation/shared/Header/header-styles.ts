@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   width: 100%;
-  background-color: #f5e0de;
+  background-color: #F5E0DE;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +66,7 @@ export const NavList = styled.ul`
 
 export const NavItem = styled.li``;
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   text-decoration: none;
   border-radius: 999rem;
   background-color: #f5e0de;

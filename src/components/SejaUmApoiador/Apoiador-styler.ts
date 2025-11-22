@@ -43,7 +43,10 @@ export const TextContent = styled.div`
 `;
 
 export const TextoH1 = styled.h1`
+<<<<<<< HEAD
   font-family: "Roboto";
+=======
+>>>>>>> links
   font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
@@ -62,7 +65,11 @@ export const TextoH1 = styled.h1`
 export const Subtitulo = styled.p`
   font-family: "Roboto";
   line-height: 1.6;
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 25px;
+>>>>>>> links
   margin-bottom: 20px;
   margin-top: -10px;
   text-align: center;

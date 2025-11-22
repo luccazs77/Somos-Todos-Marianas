@@ -1,9 +1,11 @@
 'use client';
 import Prevencao1 from "../../assets/Prevencao1.png"
 import Prevencao2 from "../../assets/Prevencao2.png"
+import { StyledButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPre-styles";
 import { ButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPreVol";
 import { Header } from "../../presentation/shared/Header/header";
 import * as S from "./Prevenao-styler"
+import { Link } from "react-router-dom";
 
 
 
@@ -41,13 +43,15 @@ export function Prevencao() {
 
                 <S.Test>
 
-                     <ButtonLink href="/sobre" variant="outlined">
+                     <StyledButtonLink to="/sobre" $variant="outlined">
                         Saiba mais
-                     </ButtonLink>
+                    </StyledButtonLink>
 
-                    <ButtonLink href="/voluntario" variant="filled">
+                    <StyledButtonLink to="/voluntario" $variant="filled">
                         Seja um voluntário
-                    </ButtonLink>
+                    </StyledButtonLink>
+
+
 
                 </S.Test>
                  
