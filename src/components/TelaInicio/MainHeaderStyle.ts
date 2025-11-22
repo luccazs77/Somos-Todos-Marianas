@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerPai = styled.div`
   width: 100%;
   min-height: 100vh;
-  background-color: #fde7e7;
+  background-color: #f8f1f1ff;
   display: flex;
   flex-direction: column;
   /* Removemos o align-items: center para o ContainerMae ter 100% da largura */

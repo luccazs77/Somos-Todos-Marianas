@@ -2,6 +2,10 @@
 import logo from "../../assets/QRC.png";
 import Pixlogo from "../../assets/PX.png";
 import * as S  from "./Apoiador-styler";
+<<<<<<< HEAD
+=======
+import { Header } from "../Header/header";
+>>>>>>> Finalizacao
 
 export function Apoiador() {
   return (

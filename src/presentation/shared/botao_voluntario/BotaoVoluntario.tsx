@@ -1,4 +1,4 @@
-import {BotaoVoluntariosEstilo} from '../botao_voluntario/BotaoVoluntarioStyled'
+import {BotaoVoluntariosEstilo} from './BotaoVoluntarioStyled'
 
 export function BotaoVoluntario() {
     return(

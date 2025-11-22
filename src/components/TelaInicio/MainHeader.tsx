@@ -1,7 +1,7 @@
 import * as S from "./MainHeaderStyle";
-import LogoMainHeader from "../../assets/LogoMainHeader.png";
-import MarianaMainHeader from "../../assets/MarianaMainHeader.png";
-import { Header } from "../../presentation/shared/Header/header";
+import LogoMainHeader from "../../assets/FundoInicio.png";
+import MarianaMainHeader from "../../assets/FotoMarianaInicio.png";
+import { Header } from "../Header/header2";
 
 export function MainHeader() {
   return (
