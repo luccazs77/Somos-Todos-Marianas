@@ -1,4 +1,4 @@
-import * as S from "../../pages/saiba-mais-edu/saiba_mais_educacao.styled";
+import * as S from "../../components/SaibaMaisEdu/saiba_mais_educacao.styled";
 import imageAcao3 from "/imagens/acao_do_projeto3.png";
 import imageAcao1 from "/imagens/acao_do_projeto1.png";
 import videoCasos from "/imagens/video_casos.png";
