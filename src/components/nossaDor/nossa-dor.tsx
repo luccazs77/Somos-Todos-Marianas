@@ -4,9 +4,7 @@ import foto2 from "../../assets/img02.png"
 import { ButtonGroup } from "../../presentation/shared/ButtonPreVol/ButtonPre-styles"
 import { ButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPreVol"
 import { Header } from "../../presentation/shared/Header/header"
-import { BotaoVoluntario } from "../botao_voluntario/BotaoVoluntario"
-import { Button } from "../SejaUmApoiador/Apoiador-styler"
-import { Container, DivContainer, ImagemFoto, Section, Texto, Textoh1 } from "./nossaDor-styled"
+import { Container, DivContainer, ImagemFoto, Texto, Textoh1 } from "./nossaDor-styled"
 
 
 export function Dor () {
