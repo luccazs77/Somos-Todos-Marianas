@@ -35,8 +35,6 @@ export function Header() {
           <S.NavItem>
             <S.NavLink to="/apoiador">Seja um apoiador</S.NavLink>
           </S.NavItem>
-
-          {/* Botão vermelho igual ao da foto */}
           <S.NavItem>
             <S.VoluntarioButton to="/voluntario">
               Seja um voluntário
