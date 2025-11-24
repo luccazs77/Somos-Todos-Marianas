@@ -40,7 +40,6 @@ export function SaibaMaisProfissionalizante() {
             </S.DivContainerTextos>
         </S.DivContainer>
 
-        {/* BOTÕES AO FINAL */}
         <S.AreaBotoes>
             <BotaoTopo />
             <BotaoVoluntario />
