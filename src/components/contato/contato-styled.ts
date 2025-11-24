@@ -122,12 +122,12 @@ export const Partners = styled.div`
   background-color: #E3C7C5;
   padding: 1rem 2rem;
   border-radius: 22px;
-  width: fit-content;
-  max-width: 450px; 
-  font-size: 20px;
+  width: 100%;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
+
 
   @media (max-width: 768px) {
     font-size: 17px;

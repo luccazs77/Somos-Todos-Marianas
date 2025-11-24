@@ -30,7 +30,8 @@ export const DivContainer = styled.div`
   width: 100%;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10%;
 
   
   @media (max-width: 1024px) {
@@ -79,7 +80,7 @@ export const Texto = styled.div`
 `;
 
 export const Textoh1 = styled.h1`
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 700;
   text-align: center;
 
