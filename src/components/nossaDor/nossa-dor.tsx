@@ -1,11 +1,8 @@
 'use client' 
-import foto from "../../assets/img01.png"
-import foto2 from "../../assets/img02.png"
-import { ButtonGroup } from "../../presentation/shared/ButtonPreVol/ButtonPre-styles"
-import { ButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPreVol"
-import { Header } from "../Header/header"
-import { BotaoVoluntario } from "../../presentation/shared/botao_voluntario/BotaoVoluntario"
-import { Button } from "../SejaUmApoiador/Apoiador-styler"
+import foto from "../../assets/FotoMarianaIrmas.png"
+import foto2 from "../../assets/FotoMarianaFamilia.png"
+import { ButtonGroup } from "../../presentation/buttons/ButtonPreVol/ButtonPre-styles"
+import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol"
 import { Container, DivContainer, ImagemFoto, Section, Texto, Textoh1 } from "./nossaDor-styled"
 
 
@@ -24,11 +21,11 @@ export function Dor () {
 
                              <ButtonGroup>   
                     
-                            <ButtonLink href="/sobre" variant="outlined">
+                            <ButtonLink to="/sobrenos" variant="outlined">
                                 Saiba mais
                             </ButtonLink>
 
-                            <ButtonLink href="/voluntario" variant="filled">
+                            <ButtonLink to="/voluntario" variant="filled">
                                 Seja um voluntário
                             </ButtonLink>
                         </ButtonGroup>

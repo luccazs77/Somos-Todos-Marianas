@@ -1,11 +1,7 @@
 'use client';
-import logo from "../../assets/QRC.png";
-import Pixlogo from "../../assets/PX.png";
+import logo from "../../assets/PixQrCode.png";
+import Pixlogo from "../../assets/PixIcon.png";
 import * as S  from "./Apoiador-styler";
-<<<<<<< HEAD
-=======
-import { Header } from "../Header/header";
->>>>>>> Finalizacao
 
 export function Apoiador() {
   return (
@@ -33,13 +29,14 @@ export function Apoiador() {
               Juntos, podemos e vamos acabar com o feminicídio!
             </p>
           </S.PixBox>
-          <S.Butonn>
-               <S.Button>Seja um voluntário</S.Button>
-          </S.Butonn>
+         
          
         </S.TextContent>
 
         <S.ImgQRC src={logo} alt="QR Code para doações" />
+         <S.Butonn>
+               <S.Button>Seja um voluntário</S.Button>
+          </S.Butonn>
       </S.ContentWrapper>
     </S.Container>
   );

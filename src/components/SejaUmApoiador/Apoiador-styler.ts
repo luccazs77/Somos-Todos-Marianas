@@ -7,18 +7,22 @@ export const Container = styled.div`
   background-color: #A28181;
   font-family: "Poppins", sans-serif;
   width: 100%;
-  min-height: 100vh;
+  min-height: 84.8vh;
   color: #010101;
   padding: 20px;
+
+   @media (max-width: 768px) {
+    min-height: 89.8vh;
+  }
 `;
 
 export const ContentWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 150px;
   flex-wrap: wrap;
 
+  /* Ajusta espaçamento para tablets */
   @media (max-width: 1024px) {
     gap: 80px;
   }
@@ -26,7 +30,7 @@ export const ContentWrapper = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
   }
 `;
 
@@ -35,18 +39,17 @@ export const TextContent = styled.div`
   flex-direction: column;
   max-width: 600px;
   text-align: left;
+  margin-top: -60px;
 
   @media (max-width: 768px) {
     max-width: 90%;
     text-align: center;
+    margin-top: 0;
   }
 `;
 
 export const TextoH1 = styled.h1`
-<<<<<<< HEAD
   font-family: "Roboto";
-=======
->>>>>>> links
   font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
@@ -54,7 +57,7 @@ export const TextoH1 = styled.h1`
 
   @media (max-width: 768px) {
     font-size: 36px;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   @media (max-width: 480px) {
@@ -65,11 +68,8 @@ export const TextoH1 = styled.h1`
 export const Subtitulo = styled.p`
   font-family: "Roboto";
   line-height: 1.6;
-<<<<<<< HEAD
   font-size: 20px;
-=======
-  font-size: 25px;
->>>>>>> links
+
   margin-bottom: 20px;
   margin-top: -10px;
   text-align: center;
@@ -92,7 +92,11 @@ export const PixBox = styled.div`
   border-radius: 8px;
   margin-bottom: 20px;
   width: 100%;
-  max-width: 420px;
+  max-width: 600px;
+
+   @media (max-width: 480px) {
+      display:none;
+    }
 
   p {
     margin: 6px 0;
@@ -104,7 +108,6 @@ export const PixBox = styled.div`
     @media (max-width: 480px) {
       margin-left: 10px;
       font-size: 14px;
-      
     }
   }
 
@@ -114,7 +117,6 @@ export const PixBox = styled.div`
 
     @media (max-width: 480px) {
       font-size: 16px;
-   
     }
   }
 
@@ -140,16 +142,17 @@ export const PixBox = styled.div`
 export const ImgQRC = styled.img`
   height: 25vh;
   border-radius: 8px;
-  margin-top: 25%;
+  margin-top: 18%;
+  margin-left: 50px;
 
+  /* MOBILE: remover margem pra imagem não ficar lá embaixo */
   @media (max-width: 768px) {
     margin-top: 0;
     height: 30vh;
   }
 
   @media (max-width: 480px) {
-    display: none;
-    height: 35vh;
+    height: 32vh;
   }
 `;
 
@@ -166,6 +169,7 @@ export const Button = styled.button`
   width: fit-content;
   display: flex;
   justify-content: center;
+  align-self: center; /* garante que no mobile fique centralizado */
 
   &:hover {
     background-color: #a13d3f;
@@ -178,8 +182,11 @@ export const Button = styled.button`
 `;
 
 export const Butonn = styled.div`
-  display: flex;
-  justify-content: center;
+   display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  margin-top: -5px;
+
 `;
 
 export const Ligt = styled.div`

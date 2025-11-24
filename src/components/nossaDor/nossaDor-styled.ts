@@ -6,35 +6,33 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 88vh;
+  min-height: 84.7vh;
   background-color: #A28181;
   color: #000000;
   font-family: "Poppins", sans-serif;
   padding: 20px;
-  
 
-   @media (max-width: 1024px) {
-     max-height: 88vh;
-     
+  @media (max-width: 1024px) {
+    min-height: 88vh;
   }
 
   @media (max-width: 768px) {
-     max-height: 88vh;
+    min-height: 88vh;
   }
 
   @media (max-width: 480px) {
-     min-height: 89.8vh;
+    min-height: 89.8vh;
   }
 `;
 
 export const DivContainer = styled.div`
   display: flex;
   width: 100%;
-  max-width: 1400px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 
+  /* Mobile e Tablet → imagem em cima, texto no meio, botões embaixo */
   @media (max-width: 1024px) {
     flex-direction: column;
     justify-content: center;
@@ -55,16 +53,15 @@ export const Texto = styled.div`
     padding: 35px 0;
     opacity: 80%;
     line-height: 1.6;
-    max-width: 550px;
     text-align: center;
   }
 
   @media (max-width: 1024px) {
     margin-left: 0;
     text-align: center;
+    order: 2;
 
     p {
-      text-align: center;
       max-width: 90%;
       margin: 0 auto;
       font-size: 18px;
@@ -73,28 +70,24 @@ export const Texto = styled.div`
 
   @media (max-width: 600px) {
     p {
-      font-size: 16px;
+      font-size: 17px;
+      text-align: cover;
+      line-height: 1.2;
     }
   }
 `;
 
 export const Textoh1 = styled.h1`
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
 
-  @media (max-width: 1024px) {
-    text-align: center;
-  }
-
   @media (max-width: 768px) {
     font-size: 36px;
-    text-align: center;
   }
 
   @media (max-width: 480px) {
     font-size: 30px;
-    text-align: center;
   }
 `;
 
@@ -111,23 +104,22 @@ export const ImagemFoto = styled.div`
     border-radius: 10px;
   }
 
-  @media (max-width: 1024px) {
-    margin-right: 0;
+  /* MOBILE → mostrar só uma imagem */
+  @media (max-width: 768px) {
+    order: 1;
     align-items: center;
-    order: 2;
 
     img {
-      width: 280px;
+      width: 260px;
     }
-  }
 
-  @media (max-width: 600px) {
-    img {
-      width: 220px;
+    /* esconde todas as imagens, MENOS a primeira */
+    img:not(:first-child) {
       display: none;
     }
   }
 `;
+
 
 export const ButtonGroup = styled.div`
   display: flex;
@@ -136,6 +128,7 @@ export const ButtonGroup = styled.div`
 
   @media (max-width: 1024px) {
     justify-content: center;
+    order: 3;
   }
 `;
 

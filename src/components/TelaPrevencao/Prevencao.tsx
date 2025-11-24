@@ -2,9 +2,9 @@
 'use client';
 import Prevencao1 from "../../assets/Prevencao1.png"
 import Prevencao2 from "../../assets/Prevencao2.png"
-import { StyledButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPre-styles";
-import { ButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPreVol";
-import { Header } from "../../presentation/shared/Header/header";
+import { StyledButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPre-styles";
+import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol";
+import { Header } from "../../presentation/shared/Header1222/header";
 import * as S from "./Prevenao-styler"
 import { Link } from "react-router-dom";
 

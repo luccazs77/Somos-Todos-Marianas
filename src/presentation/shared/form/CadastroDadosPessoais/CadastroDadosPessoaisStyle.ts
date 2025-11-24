@@ -1,9 +1,7 @@
 // src/pages/VoluntarioDadosPessoais/styles.ts
 import styled from "styled-components";
-import fundo from "../../assets/wallpaper.png";
+import fundo from "../../../../assets/wallpaper.png";
 
-
-// Container geral da página (abaixo do Header)
 export const PageContainer = styled.main`
   width: 100%;
   min-height: 100vh; // ocupa ao menos a altura da tela
@@ -22,7 +20,7 @@ export const PageContainer = styled.main`
 
 // "Card" branco centralizado
 export const FormCard = styled.section`
-  width: 100%;
+  width: 80%;
   max-width: 960px;
   background-color: #ffffff;
   border-radius: 18px;

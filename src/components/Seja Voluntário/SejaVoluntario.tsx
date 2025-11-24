@@ -1,10 +1,7 @@
 'use client' 
 import foto from "../../assets/voluntário.png"
-import { ButtonGroup } from "../../presentation/shared/ButtonPreVol/ButtonPre-styles"
-import { ButtonLink } from "../../presentation/shared/ButtonPreVol/ButtonPreVol"
-import { Header } from "../../presentation/shared/Header/header"
-import { BotaoVoluntario } from "../botao_voluntario/BotaoVoluntario"
-import { Button } from "../SejaUmApoiador/Apoiador-styler"
+import { ButtonGroup } from "../../presentation/buttons/ButtonPreVol/ButtonPre-styles"
+import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol"
 import { Container, DivContainer, ImagemFoto, Section, Texto, Textoh1 } from "./SejaVoluntariostyle"
 
 
@@ -25,7 +22,7 @@ export function SejaVoluntario () {
                              <ButtonGroup>   
                     
                          
-                            <ButtonLink href="/voluntario" variant="filled">
+                            <ButtonLink to="/formulario" variant="filled">
                                Cadastre-se
                             </ButtonLink>
                         </ButtonGroup>

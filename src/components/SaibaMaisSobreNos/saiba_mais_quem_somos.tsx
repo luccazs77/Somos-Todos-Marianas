@@ -1,8 +1,8 @@
 'use client'
-import { BotaoTopo } from "../../components/botao_topo/BotaoTopo";
+
 import Img16 from "/imagens/image16.png"
 import * as S from '../../components/SaibaMaisSobreNos/saiba_mais_quem_somos.styled'       
-import { BotaoVoluntario } from "../../components/botao_voluntario/BotaoVoluntario";
+
 
 
 
@@ -39,10 +39,10 @@ export function SaibaMaisQuemSomos() {
         
         <S.BotoesContainer>
              <div>
-            <BotaoTopo></BotaoTopo>
+         
           </div>
           <div>
-            <BotaoVoluntario></BotaoVoluntario>
+            
           </div>
         </S.BotoesContainer>
     </S.AllContainer>

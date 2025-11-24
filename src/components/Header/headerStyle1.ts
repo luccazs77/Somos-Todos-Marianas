@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.header`
   width: 100%;
@@ -23,7 +23,6 @@ export const Nav = styled.nav`
   padding: 1%;
 `;
 
-// Logo sempre visível, centralizada no mobile
 export const Logo = styled.div`
   display: flex;
   justify-content: center;
@@ -45,7 +44,6 @@ export const LogoImg = styled.img`
   }
 `;
 
-// Botão de menu (hambúrguer) – aparece só no mobile
 export const MobileMenuButton = styled.button`
   display: none;
   border: none;
@@ -59,7 +57,6 @@ export const MobileMenuButton = styled.button`
   }
 `;
 
-// Lista de links: horizontal no desktop, menu suspenso no mobile
 export const NavList = styled.ul<{ $open: boolean }>`
   display: flex;
   justify-content: space-between;
@@ -79,13 +76,13 @@ export const NavList = styled.ul<{ $open: boolean }>`
     background-color: #f5e0de;
     border-top: 0.1rem solid #ca6e70;
 
-    /* Abre/fecha o menu conforme o estado vindo do React */
     display: ${({ $open }) => ($open ? "flex" : "none")};
   }
 `;
 
 export const NavItem = styled.li``;
 
+// 🔥 AGORA É UM Link do React Router
 export const NavLink = styled(Link)`
   text-decoration: none;
   border-radius: 1.5rem;
@@ -103,7 +100,6 @@ export const NavLink = styled(Link)`
   &:hover {
     background-color: #ca6e70;
     color: #f5e0de;
-
   }
 
   @media (max-width: 480px) {

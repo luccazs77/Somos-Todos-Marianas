@@ -1,10 +1,10 @@
 'use client'
-import { BotaoTopo } from "../../presentation/shared/botao_topo/BotaoTopo";
+import { BotaoTopo } from "../../presentation/buttons/botao_topo/BotaoTopo";
 import Img16 from "/imagens/image16.png"
 import FestaMariana from "/imagens/Sem título 5.png"
 import Img8 from "/imagens/Sem título 8.png"
 import * as S from './saiba-mais-quem-somos-styled'       
-import { BotaoVoluntario } from "../../presentation/shared/botao_voluntario/BotaoVoluntario";
+import { BotaoVoluntario } from "../../presentation/buttons/botao_voluntario/BotaoVoluntario";
 
 
 export function SaibaMaisQuemSomos() {

@@ -1,7 +1,6 @@
-// src/pages/Acoes/index.tsx (por exemplo)
+
 import React from "react";
 
-// importa TODOS os styled components que você criou
 import {
   ContainerPai,
   Title,
@@ -10,17 +9,16 @@ import {
   AcoesImagem,
   Legenda,
   BotaoVoluntario,
-} from "./CarroselStyle"; // ajuste o caminho conforme seu projeto
+} from "./CarroselStyle"; 
 
-// IMPORT das imagens dos cards
 import foto1 from "../../../src/assets/AcaoCriancas.png";
 import foto2 from "../../../src/assets/AcaoMulheres.png";
 import foto3 from "../../../src/assets/AcaoPresentes.png";
 import foto4 from "../../../src/assets/AcaoPcd.png";
+import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol";
 
 
 const AcoesSection: React.FC = () => {
-  // (opcional) array para facilitar manutenção dos cards
   const acoes = [
     {
       id: 1,
@@ -61,7 +59,9 @@ const AcoesSection: React.FC = () => {
         ))}
       </Cards>
 
-      <BotaoVoluntario>Seja um voluntário</BotaoVoluntario>
+       <ButtonLink to="/voluntario" variant="filled">
+          Seja um voluntário
+        </ButtonLink>
     </ContainerPai>
   );
 };

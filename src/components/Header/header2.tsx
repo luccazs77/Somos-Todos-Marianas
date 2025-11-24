@@ -10,8 +10,8 @@ import {
   NavLink,
   VoluntarioButton,
 } from "./headerStyle1";
-import logo from "../../assets/LogoSTM.png"
 
+import logo from "../../assets/LogoSTM.png";
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -20,39 +20,37 @@ export function Header() {
     <HeaderContainer>
       <Nav>
         <Logo>
-          <LogoImg src = {logo} alt="Logo" />
+          <LogoImg src={logo} alt="Logo" />
         </Logo>
 
-        {/* Botão hambúrguer visível só no mobile */}
         <MobileMenuButton onClick={() => setMenuOpen((prev) => !prev)}>
           ☰
         </MobileMenuButton>
 
-        {/* Lista recebe o estado para abrir/fechar no mobile */}
         <NavList $open={menuOpen}>
           <NavItem>
-            <NavLink href="#home">Início</NavLink>
+            <NavLink to="/">Início</NavLink>
           </NavItem>
+
           <NavItem>
-            <NavLink href="#sobre">Sobre</NavLink>
+            <NavLink to="/sobre">Sobre</NavLink>
           </NavItem>
+
           <NavItem>
-            <NavLink href="#contato">Ações</NavLink>
+            <NavLink to="/acoes">Ações</NavLink>
           </NavItem>
-          <NavItem>
-            <VoluntarioButton href="#voluntario">
-              Seja voluntário
-            </VoluntarioButton>
+
+           <NavItem>
+            <NavLink to="/voluntario">Seja voluntário</NavLink>
           </NavItem>
+
+
           <NavItem>
-            <VoluntarioButton href="#voluntario">
-              Seja apoiador
-            </VoluntarioButton>
+            <VoluntarioButton to="/apoie">Seja apoiador</VoluntarioButton>
           </NavItem>
+
           <NavItem>
-            <VoluntarioButton href="#voluntario">
-              Contato
-            </VoluntarioButton>
+            <NavLink to="/contato">Contato</NavLink>
           </NavItem>
         </NavList>
       </Nav>
