@@ -25,13 +25,7 @@ export function Prevencao() {
             </Textoh1>
 
             <p>
-              Na tarde de 13 de novembro de 2016, o silêncio de São Luís foi
-              quebrado por um grito que nunca deveria ter existido. Mariana
-              Costa, uma jovem publicitária cheia de sonhos, teve sua vida
-              brutalmente interrompida, vítima de feminicídio. Naquele momento,
-              não sabíamos, mas o eco daquele grito iria se transformar em um
-              movimento que mudaria para sempre a luta contra a violência de
-              gênero no Maranhão...
+              O projeto Somos Todos Marianas previne o feminicídio ao atuar com educação, acolhimento e conscientização nas escolas e comunidades. Ele ensina a reconhecer sinais de abuso, combate o machismo estrutural e oferece apoio às mulheres, criando uma rede de proteção que interrompe o ciclo de violência.
             </p>
 
             <ButtonsWrapper>

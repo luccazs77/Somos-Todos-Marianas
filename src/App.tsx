@@ -21,12 +21,11 @@ function App() {
       <Route path="/apoie" element={<Apoiador />} />
       <Route path="/sobre" element={<Dor />} />
       <Route path="/acoes" element={<AcoesSection />} />
-      <Route path="/voluntario" element={<SejaVoluntario/>} />
-      <Route path="/contato" element={<Contato/>} />
-      <Route path="/formulario" element={<VoluntarioDadosPessoais/>} />
-      <Route path="/sobrenos" element={<SaibaMaisQuemSomos/>} />
-      <Route path="/sobrenos" element={<Prevencao/>} />
-
+      <Route path="/voluntario" element={<SejaVoluntario />} />
+      <Route path="/contato" element={<Contato />} />
+      <Route path="/formulario" element={<VoluntarioDadosPessoais />} />
+      <Route path="/sobrenos" element={<SaibaMaisQuemSomos />} />
+      <Route path="/sobrenos" element={<Prevencao />} />
     </Routes>
    </>
 

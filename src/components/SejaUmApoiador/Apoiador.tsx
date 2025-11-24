@@ -2,6 +2,7 @@
 import logo from "../../assets/PixQrCode.png";
 import Pixlogo from "../../assets/PixIcon.png";
 import * as S  from "./Apoiador-styler";
+import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol";
 
 export function Apoiador() {
   return (
@@ -35,7 +36,9 @@ export function Apoiador() {
 
         <S.ImgQRC src={logo} alt="QR Code para doações" />
          <S.Butonn>
-               <S.Button>Seja um voluntário</S.Button>
+               <ButtonLink to="/voluntario" variant="filled">
+                  Seja um voluntário
+                </ButtonLink>
           </S.Butonn>
       </S.ContentWrapper>
     </S.Container>

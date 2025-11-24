@@ -41,7 +41,7 @@ export function Header() {
           </NavItem>
 
           <NavItem>
-            <NavLink to="/">Educação</NavLink>
+            <NavLink to="/prevenção">Prevenção</NavLink>
           </NavItem>
 
 
