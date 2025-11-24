@@ -11,12 +11,9 @@ export function SejaVoluntario () {
                         <DivContainer>
                             <Texto>
                             <Textoh1>Seja um Voluntário</Textoh1>
-                            <p>Como Sua Doação Faz a Diferença <br /> Sua doação é mais do que um gesto; é um investimento direto na <br />
-                             vida de mulheres que precisam de apoio. Cada real doado é <br />
-                             utilizado de forma estratégica para maximizar o impacto e garantir <br />
-                             que os recursos cheguem a quem mais precisa. Priorizamos a <br />
-                             eficiência e a transparência em todas as etapas, desde a captação <br />
-                             até a aplicação dos recursos.
+                            <p>Como Sua Doação Faz a Diferença Sua doação é mais do que um gesto; é um investimento direto na vida de mulheres que precisam de apoio. Cada real doado é utilizado de forma estratégica para maximizar o impacto e garantir
+                            que os recursos cheguem a quem mais precisa. Priorizamos a
+                            eficiência e a transparência em todas as etapas, desde a captação até a aplicação dos recursos.
                             </p>
 
                              <ButtonGroup>   

@@ -80,6 +80,7 @@ export const Textoh1 = styled.h1`
   font-size: 2.2rem;
   line-height: 1.2;
   margin: 0;
+  
 
   @media (min-width: 900px) {
     font-size: 2.6rem;

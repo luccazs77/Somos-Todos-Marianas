@@ -83,6 +83,7 @@ export const Textoh1 = styled.h1`
   font-size: 50px;
   font-weight: 700;
   text-align: center;
+  font-family: Roboto;
 
   @media (max-width: 768px) {
     font-size: 36px;
@@ -106,20 +107,10 @@ export const ImagemFoto = styled.div`
     border-radius: 10px;
   }
 
-  /* MOBILE → mostrar só uma imagem */
-  @media (max-width: 768px) {
-    order: 1;
-    align-items: center;
 
-    img {
-      width: 260px;
-    }
-
-    /* esconde todas as imagens, MENOS a primeira */
-    img:not(:first-child) {
-      display: none;
-    }
-  }
+  @media (max-width: 1080px) {
+    display: none;
+}
 `;
 
 

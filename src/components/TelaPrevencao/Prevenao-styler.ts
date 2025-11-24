@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   width: 100%;
-<<<<<<< HEAD
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -12,6 +11,7 @@ export const Container = styled.div`
   color: #000000;
   font-family: "Poppins", sans-serif;
 `;
+
 export const Pagprevencao = styled.div`
   display: flex;
   width: 100%;
@@ -22,8 +22,6 @@ export const Pagprevencao = styled.div`
   background-color: #A28181;
   color: #000000;
   font-family: "Poppins", sans-serif;
- 
-=======
   min-height: 88vh;
   align-items: center;
   justify-content: center;
@@ -45,7 +43,6 @@ export const Pagprevencao = styled.div`
   @media (max-width: 480px) {
      min-height: 89.8vh;
   }
->>>>>>> links
 `;
 
 /* 🔥 IMAGENS — SEMPRE PRIMEIRO NO MOBILE */
@@ -86,15 +83,12 @@ export const Imapre = styled.div`
 export const ContentWrapper = styled.div`
   max-width: 700px;
   text-align: center;
-<<<<<<< HEAD
   margin-left: 5%;
 
   @media (max-width: 1024px) {
     margin: 0;
   }
-=======
   order: 2;
->>>>>>> links
 
   @media (max-width: 768px) {
     padding: 0 10px;

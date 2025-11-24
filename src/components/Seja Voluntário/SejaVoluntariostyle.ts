@@ -72,13 +72,9 @@ export const ImagemFoto = styled.div`
   img{
     height: 450px;
   }
- @media  (max-width: 768px) {
-     margin: 0 auto;
-    img{
-    height: 200px;
+ @media  (max-width: 1080px) {
+     display:  none;
   }
-}
-
 `
 export const Section = styled.div`
 

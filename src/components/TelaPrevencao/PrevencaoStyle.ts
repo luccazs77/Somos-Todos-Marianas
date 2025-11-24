@@ -4,7 +4,7 @@ import styled from "styled-components";
 /* IFRAME DO VÍDEO */
 export const VideoFrame = styled.iframe`
   width: 100%;
-  aspect-ratio: 16 / 9;           /* mantém proporção */
+  aspect-ratio: 16 / 9;       
   border: none;
   border-radius: 18px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);

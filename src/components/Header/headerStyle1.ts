@@ -8,10 +8,12 @@ export const HeaderContainer = styled.header`
   justify-content: center;
   align-items: center;
   height: 8rem;
-  margin-top: -10px;
+  position: relative;
+  z-index: 10;
+  opacity: 0.95;
 
   @media (max-width: 768px) {
-    height: 6rem;
+    height: auto;
   }
 `;
 
@@ -51,6 +53,8 @@ export const MobileMenuButton = styled.button`
   font-size: 2rem;
   color: #ca6e70;
   cursor: pointer;
+  position: relative;
+  z-index: 20;
 
   @media (max-width: 768px) {
     display: block;
@@ -82,7 +86,7 @@ export const NavList = styled.ul<{ $open: boolean }>`
 
 export const NavItem = styled.li``;
 
-// 🔥 AGORA É UM Link do React Router
+
 export const NavLink = styled(Link)`
   text-decoration: none;
   border-radius: 1.5rem;

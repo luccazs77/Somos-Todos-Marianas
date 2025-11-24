@@ -48,6 +48,5 @@ export const FotoMariana = styled.img`
   }
     @media  (max-width: 768px) {
      margin: 0 auto;
-     display: none
 }
 `;

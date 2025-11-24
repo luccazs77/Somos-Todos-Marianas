@@ -40,6 +40,11 @@ export function Header() {
             <NavLink to="/acoes">Ações</NavLink>
           </NavItem>
 
+          <NavItem>
+            <NavLink to="/">Educação</NavLink>
+          </NavItem>
+
+
            <NavItem>
             <NavLink to="/voluntario">Seja voluntário</NavLink>
           </NavItem>
