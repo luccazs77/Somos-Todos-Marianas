@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContainerPai = styled.div`
   width: 100%;
-  min-height: 50vh;
+
   background-color: #f8f1f1ff;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@ export const ContainerPai = styled.div`
 
 export const ContainerMae = styled.div`
   width: 100%;
-  height: 84.7vh;
+  height: 88vh;
   display: flex; 
   overflow: hidden;
 

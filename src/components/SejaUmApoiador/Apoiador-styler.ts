@@ -7,7 +7,7 @@ export const Container = styled.div`
   background-color: #A28181;
   font-family: "Poppins", sans-serif;
   width: 100%;
-  min-height: 84.8vh;
+  height: 88vh;
   color: #010101;
   padding: 20px;
 

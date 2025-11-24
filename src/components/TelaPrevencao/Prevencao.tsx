@@ -91,7 +91,6 @@ export function Prevencao() {
 
     )
 }
-=======
           <ImagemFoto>
             <VideoFrame
               src={`https://www.youtube.com/embed/${videoId}`}
@@ -105,4 +104,4 @@ export function Prevencao() {
     </>
   );
 }
->>>>>>> Finalizacao
+

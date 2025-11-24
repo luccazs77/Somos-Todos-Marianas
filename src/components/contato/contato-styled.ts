@@ -9,7 +9,7 @@ export const Container = styled.div`
   align-items: center;
   flex-wrap: wrap;
   gap: 8rem;
-  min-height: 84.7vh;
+  height: 88vh;
 
   @media (max-width: 1280px) {
     gap: 6rem;
@@ -123,7 +123,7 @@ export const Partners = styled.div`
   padding: 1rem 2rem;
   border-radius: 22px;
   width: fit-content;
-  max-width: 450px; /* largura padrão */
+  max-width: 450px; 
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -132,7 +132,7 @@ export const Partners = styled.div`
   @media (max-width: 768px) {
     font-size: 17px;
     padding: 0.8rem 1.4rem;
-    max-width: 360px; /* menor no tablet */
+    max-width: 360px; 
   }
 
   @media (max-width: 480px) {

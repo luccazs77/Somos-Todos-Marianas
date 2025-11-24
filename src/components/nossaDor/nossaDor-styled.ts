@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 84.7vh;
+  height: 88vh;
   background-color: #A28181;
   color: #000000;
   font-family: "Poppins", sans-serif;
@@ -30,9 +30,9 @@ export const DivContainer = styled.div`
   width: 100%;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 
-  /* Mobile e Tablet → imagem em cima, texto no meio, botões embaixo */
+  
   @media (max-width: 1024px) {
     flex-direction: column;
     justify-content: center;
@@ -54,6 +54,7 @@ export const Texto = styled.div`
     opacity: 80%;
     line-height: 1.6;
     text-align: center;
+     font-family: "Roboto";
   }
 
   @media (max-width: 1024px) {

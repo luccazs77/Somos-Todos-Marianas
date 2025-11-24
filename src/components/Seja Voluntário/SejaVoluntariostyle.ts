@@ -7,7 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 84.5vh;
+  height: 88vh;
   background-image: url(${fundo});
   background-color: white;
   font-family: "Poppins", sans-serif;
@@ -47,6 +47,7 @@ p{
   padding: 35px;
   opacity: 80%;
   line-height: 1.6;
+  font-family: "Roboto";
 }
 @media  (max-width: 768px) {
     margin: 0 auto;

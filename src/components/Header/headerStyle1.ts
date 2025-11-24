@@ -90,7 +90,7 @@ export const NavLink = styled(Link)`
   border: 0.1rem solid #ca6e70;
   font-weight: 900;
   color: #ca6e70;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   padding: 0.7rem;
   transition: all 0.3s ease;
   display: inline-block;

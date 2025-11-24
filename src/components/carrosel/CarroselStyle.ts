@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
 /* ========================= CONTAINER PAI ============================= */
 
 export const ContainerPai = styled.section`
-  min-height: 84.2vh;
+  height: 88vh;
   width: 100%;
   display: flex;
   flex-direction: column;
