@@ -1,5 +1,4 @@
 import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol";
-import { Header } from "../Header/header2";
 import {
   Container,
   DivContainer,
@@ -8,8 +7,6 @@ import {
   ImagemFoto,
   VideoFrame,
   ButtonsWrapper,
-  PrimaryButton,
-  SecondaryButton,
 } from "./PrevencaoStyle";
 
 export function Prevencao() {

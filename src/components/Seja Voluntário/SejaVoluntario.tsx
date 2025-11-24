@@ -2,7 +2,7 @@
 import foto from "../../assets/voluntário.png"
 import { ButtonGroup } from "../../presentation/buttons/ButtonPreVol/ButtonPre-styles"
 import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol"
-import { Container, DivContainer, ImagemFoto, Section, Texto, Textoh1 } from "./SejaVoluntariostyle"
+import { Container, DivContainer, ImagemFoto, Texto, Textoh1 } from "./SejaVoluntariostyle"
 
 
 export function SejaVoluntario () {

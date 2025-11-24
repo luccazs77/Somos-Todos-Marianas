@@ -8,7 +8,6 @@ import {
   Card,
   AcoesImagem,
   Legenda,
-  BotaoVoluntario,
 } from "./CarroselStyle"; 
 
 import foto1 from "../../../src/assets/AcaoCriancas.png";
