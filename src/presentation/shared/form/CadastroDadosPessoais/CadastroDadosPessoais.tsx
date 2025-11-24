@@ -1,5 +1,5 @@
-// src/pages/VoluntarioDadosPessoais/index.tsx
 import React, { useState, type FormEvent } from "react";
+import emailjs from "emailjs-com"; 
 import {
   PageContainer,
   FormCard,
@@ -13,7 +13,6 @@ import {
   PrimaryButton,
 } from "./CadastroDadosPessoaisStyle";
 
-// Tipo dos dados do formulário (boa prática em TS)
 type DadosPessoaisForm = {
   nomeCompleto: string;
   cidade: string;
@@ -28,7 +27,6 @@ type DadosPessoaisForm = {
 };
 
 export function VoluntarioDadosPessoais() {
-  // Estado único com todos os campos (controlados)
   const [formData, setFormData] = useState<DadosPessoaisForm>({
     nomeCompleto: "",
     cidade: "",
@@ -42,43 +40,37 @@ export function VoluntarioDadosPessoais() {
     idade: "",
   });
 
-  // Atualiza qualquer campo baseado no "name"
-  function handleChange(
-    event: React.ChangeEvent<HTMLInputElement>
-  ) {
+  function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     const { name, value } = event.target;
-
     setFormData((prev) => ({
       ...prev,
       [name]: value,
     }));
   }
 
-  // Submissão do formulário (aqui só evita reload e loga no console)
   function DadosPessoais(event: FormEvent) {
     event.preventDefault();
 
-    // Aqui você pode enviar para API, contexto, próxima etapa, etc.
-    console.log("Dados pessoais do voluntário:", formData);
-
-    // Exemplo: redirecionar para próxima etapa do cadastro
-    // navigate("/voluntario/endereco"); // se usar react-router
+   emailjs.send(
+  "service_5kizrvo",
+  "template_86pxx5i",
+  formData,
+  "WLr22p3KbTuXUWgBw"
+)
+.then(() => alert("formulário foi enviado com sucesso!!"))
+.catch((err) => console.log("Erro:", err));
   }
 
   return (
     <PageContainer>
-      {/* Formulário semântico */}
       <FormCard as="form" onSubmit={DadosPessoais}>
         <FormTitle>DADOS PESSOAIS</FormTitle>
 
         <FieldsGrid>
-          {/* Nome completo */}
           <FullWidthField>
-            <FieldLabel htmlFor="nomeCompleto">Nome completo:</FieldLabel>
+            <FieldLabel>Nome completo:</FieldLabel>
             <TextInput
-              id="nomeCompleto"
               name="nomeCompleto"
-              type="text"
               placeholder="Digite seu nome completo"
               value={formData.nomeCompleto}
               onChange={handleChange}
@@ -86,27 +78,20 @@ export function VoluntarioDadosPessoais() {
             />
           </FullWidthField>
 
-          {/* Cidade */}
           <FieldWrapper>
-            <FieldLabel htmlFor="cidade">Cidade:</FieldLabel>
+            <FieldLabel>Cidade:</FieldLabel>
             <TextInput
-              id="cidade"
               name="cidade"
-              type="text"
-              placeholder="Ex.: São Luís"
+              placeholder="São Luís"
               value={formData.cidade}
               onChange={handleChange}
               required
             />
           </FieldWrapper>
 
-          {/* Data de nascimento */}
           <FieldWrapper>
-            <FieldLabel htmlFor="dataNascimento">
-              Data de nascimento:
-            </FieldLabel>
+            <FieldLabel>Data de nascimento:</FieldLabel>
             <TextInput
-              id="dataNascimento"
               name="dataNascimento"
               type="date"
               value={formData.dataNascimento}
@@ -115,13 +100,10 @@ export function VoluntarioDadosPessoais() {
             />
           </FieldWrapper>
 
-          {/* Bairro */}
           <FieldWrapper>
-            <FieldLabel htmlFor="bairro">Bairro:</FieldLabel>
+            <FieldLabel>Bairro:</FieldLabel>
             <TextInput
-              id="bairro"
               name="bairro"
-              type="text"
               placeholder="Informe seu bairro"
               value={formData.bairro}
               onChange={handleChange}
@@ -129,13 +111,10 @@ export function VoluntarioDadosPessoais() {
             />
           </FieldWrapper>
 
-          {/* CPF */}
           <FieldWrapper>
-            <FieldLabel htmlFor="cpf">CPF:</FieldLabel>
+            <FieldLabel>CPF:</FieldLabel>
             <TextInput
-              id="cpf"
               name="cpf"
-              type="text"
               placeholder="000.000.000-00"
               value={formData.cpf}
               onChange={handleChange}
@@ -143,24 +122,19 @@ export function VoluntarioDadosPessoais() {
             />
           </FieldWrapper>
 
-          {/* CEP */}
           <FieldWrapper>
-            <FieldLabel htmlFor="cep">CEP:</FieldLabel>
+            <FieldLabel>CEP:</FieldLabel>
             <TextInput
-              id="cep"
               name="cep"
-              type="text"
               placeholder="00000-000"
               value={formData.cep}
               onChange={handleChange}
             />
           </FieldWrapper>
 
-          {/* E-mail */}
           <FieldWrapper>
-            <FieldLabel htmlFor="email">E-mail:</FieldLabel>
+            <FieldLabel>E-mail:</FieldLabel>
             <TextInput
-              id="email"
               name="email"
               type="email"
               placeholder="seuemail@exemplo.com"
@@ -170,13 +144,10 @@ export function VoluntarioDadosPessoais() {
             />
           </FieldWrapper>
 
-          {/* Telefone */}
           <FieldWrapper>
-            <FieldLabel htmlFor="telefone">Telefone:</FieldLabel>
+            <FieldLabel>Telefone:</FieldLabel>
             <TextInput
-              id="telefone"
               name="telefone"
-              type="tel"
               placeholder="(00) 00000-0000"
               value={formData.telefone}
               onChange={handleChange}
@@ -184,15 +155,10 @@ export function VoluntarioDadosPessoais() {
             />
           </FieldWrapper>
 
-          {/* Endereço completo (linha inteira) */}
           <FullWidthField>
-            <FieldLabel htmlFor="enderecoCompleto">
-              Endereço completo:
-            </FieldLabel>
+            <FieldLabel>Endereço completo:</FieldLabel>
             <TextInput
-              id="enderecoCompleto"
               name="enderecoCompleto"
-              type="text"
               placeholder="Rua, número, complemento"
               value={formData.enderecoCompleto}
               onChange={handleChange}
@@ -200,14 +166,11 @@ export function VoluntarioDadosPessoais() {
             />
           </FullWidthField>
 
-          {/* Idade */}
           <FieldWrapper>
-            <FieldLabel htmlFor="idade">Idade:</FieldLabel>
+            <FieldLabel>Idade:</FieldLabel>
             <TextInput
-              id="idade"
               name="idade"
               type="number"
-              min={0}
               placeholder="Ex.: 25"
               value={formData.idade}
               onChange={handleChange}
@@ -216,7 +179,7 @@ export function VoluntarioDadosPessoais() {
         </FieldsGrid>
 
         <ActionsRow>
-          <PrimaryButton type="submit">Próximo</PrimaryButton>
+         <PrimaryButton type="submit">Enviar</PrimaryButton>
         </ActionsRow>
       </FormCard>
     </PageContainer>

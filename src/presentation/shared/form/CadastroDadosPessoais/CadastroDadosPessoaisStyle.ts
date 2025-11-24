@@ -4,7 +4,7 @@ import fundo from "../../../../assets/wallpaper.png";
 
 export const PageContainer = styled.main`
   width: 100%;
-  min-height: 100vh; // ocupa ao menos a altura da tela
+  height: 100vh; // ocupa ao menos a altura da tela
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -28,6 +28,7 @@ export const FormCard = styled.section`
   padding: 32px 20px 28px;
   position: relative;
   overflow: hidden;
+  margin-top: -100px;
 
   @media (min-width: 900px) {
     padding: 40px 48px 32px;
