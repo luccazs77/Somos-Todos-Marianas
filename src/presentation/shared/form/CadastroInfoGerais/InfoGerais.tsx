@@ -7,7 +7,6 @@ import {
   FieldsColumn,
   FieldWrapper,
   FieldLabel,
-  TextInput,
   LongTextInput,
   ExperienceQuestion,
   ExperienceOptions,
