@@ -8,7 +8,6 @@ import { SejaVoluntario } from "./components/Seja Voluntário/SejaVoluntario";
 import { Contato } from "./components/contato/contato";
 import { VoluntarioDadosPessoais } from "./presentation/shared/form/CadastroDadosPessoais/CadastroDadosPessoais";
 import { SaibaMaisQuemSomos } from "./components/SaibaMaisSobreNos/saiba_mais_quem_somos";
-import { Justica } from "./components/JusticaTransformacao/JusticaTransformacao";
 import { Prevencao } from "./components/TelaPrevencao/Prevencao";
 import { SaibaMaisProfissionalizante } from "./components/SaibaMaisPrevenção/saibaprevencao";
 
