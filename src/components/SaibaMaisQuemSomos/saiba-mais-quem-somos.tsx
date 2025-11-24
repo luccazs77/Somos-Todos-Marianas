@@ -1,4 +1,4 @@
-'use client'
+
 import { BotaoTopo } from "../../components/botao_topo/BotaoTopo";
 import Img16 from "/imagens/image16.png"
 import FestaMariana from "/imagens/Sem título 5.png"
