@@ -8,6 +8,7 @@ import { SejaVoluntario } from "./components/Seja Voluntário/SejaVoluntario";
 import { Contato } from "./components/contato/contato";
 import { VoluntarioDadosPessoais } from "./presentation/shared/form/CadastroDadosPessoais/CadastroDadosPessoais";
 import { SaibaMaisQuemSomos } from "./components/SaibaMaisSobreNos/saiba_mais_quem_somos";
+import { Prevencao } from "./components/TelaPrevencao/Prevencao";
 
 
 
@@ -24,6 +25,8 @@ function App() {
       <Route path="/contato" element={<Contato/>} />
       <Route path="/formulario" element={<VoluntarioDadosPessoais/>} />
        <Route path="/sobrenos" element={<SaibaMaisQuemSomos/>} />
+       <Route path="/prevencao" element={<Prevencao/>} />
+
 
     </Routes>
    </>

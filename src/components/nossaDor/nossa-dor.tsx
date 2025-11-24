@@ -12,11 +12,11 @@ export function Dor () {
                         <DivContainer>
                             <Texto>
                             <Textoh1>NOSSA DOR</Textoh1>
-                            <p>Na tarde de 13 de novembro de 2016, o silêncio de São <br /> Luís foi quebrado por um grito que nunca
-                            deveria ter <br /> existido. Mariana Costa, uma jovem publicitária cheia de <br /> sonhos, teve sua vida 
-                            brutalmente interrompida, vítima <br /> de feminicídio. Naquele momento, não sabíamos, mas o <br /> eco daquele 
-                            grito iria se transformar em um movimento <br /> que mudaria para sempre a luta contra a violência de <br />
-                            gênero no Maranhão. <br /> Das Cinzas, Nasce uma Esperança...
+                            <p>Na tarde de 13 de novembro de 2016, o silêncio de São Luís foi quebrado por um grito que nunca
+                            deveria ter existido. Mariana Costa, uma jovem publicitária cheia de sonhos, teve sua vida 
+                            brutalmente interrompida, vítima de feminicídio. Naquele momento, não sabíamos, mas o eco daquele 
+                            grito iria se transformar em um movimento que mudaria para sempre a luta contra a violência de
+                            gênero no Maranhão. Das Cinzas, Nasce uma Esperança...
                             </p>
 
                              <ButtonGroup>   

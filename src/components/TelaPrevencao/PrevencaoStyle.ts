@@ -1,10 +1,9 @@
 // JusticaTransformacaoStyle.ts
 import styled from "styled-components";
 
-/* IFRAME DO VÍDEO */
 export const VideoFrame = styled.iframe`
   width: 100%;
-  aspect-ratio: 16 / 9;           /* mantém proporção */
+  aspect-ratio: 16 / 9;          
   border: none;
   border-radius: 18px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
@@ -14,11 +13,11 @@ export const VideoFrame = styled.iframe`
   height: 31.25rem;
 `;
 
-/* CONTAINER GERAL (ABAIXO DO HEADER) */
+
 export const Container = styled.main`
   display: flex;
   width: 100%;
-  min-height: 100vh;              /* cresce com o conteúdo */
+  height: 88%;             /* cresce com o conteúdo */
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -63,6 +62,7 @@ export const Texto = styled.div`
     opacity: 0.8;
     line-height: 1.6;
     text-align: left;
+    text-align: center;
   }
 
   @media (min-width: 900px) {
@@ -79,6 +79,7 @@ export const Texto = styled.div`
 export const Textoh1 = styled.h1`
   font-size: 2.2rem;
   line-height: 1.2;
+  text-align: center;
   margin: 0;
 
   @media (min-width: 900px) {
