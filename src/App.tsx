@@ -10,6 +10,8 @@ import { VoluntarioDadosPessoais } from "./presentation/shared/form/CadastroDado
 import { SaibaMaisQuemSomos } from "./components/SaibaMaisSobreNos/saiba_mais_quem_somos";
 import { Justica } from "./components/JusticaTransformacao/JusticaTransformacao";
 import { Prevencao } from "./components/TelaPrevencao/Prevencao";
+import { SaibaMaisProfissionalizante } from "./components/SaibaMaisPrevenção/saibaprevencao";
+
 
 
 function App() {
@@ -25,7 +27,9 @@ function App() {
       <Route path="/contato" element={<Contato />} />
       <Route path="/formulario" element={<VoluntarioDadosPessoais />} />
       <Route path="/sobrenos" element={<SaibaMaisQuemSomos />} />
-      <Route path="/sobrenos" element={<Prevencao />} />
+      <Route path="/prevencao" element={<Prevencao />} />
+      <Route path="/saibaPrevencao" element={<SaibaMaisProfissionalizante/>} />
+     
     </Routes>
    </>
 

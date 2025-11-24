@@ -2,6 +2,7 @@
 
 import Img16 from "/imagens/image16.png"
 import * as S from '../../components/SaibaMaisSobreNos/saiba_mais_quem_somos.styled'       
+import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol"
 
 
 
@@ -38,12 +39,13 @@ export function SaibaMaisQuemSomos() {
         </S.ContainerInicial>
         
         <S.BotoesContainer>
-             <div>
-         
-          </div>
-          <div>
-            
-          </div>
+               <ButtonLink to="/" variant="outlined">
+                Volta topo
+            </ButtonLink>
+
+            <ButtonLink to="/voluntario" variant="filled">
+                Seja um voluntário
+            </ButtonLink>
         </S.BotoesContainer>
     </S.AllContainer>
 </>

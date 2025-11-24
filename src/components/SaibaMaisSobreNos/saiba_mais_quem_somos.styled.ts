@@ -199,8 +199,9 @@ export const BotoesContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 2%;
-  padding-top: 3%;
+  margin-top: -200px;
   box-sizing: border-box;
+  margin-left: -250px;
 
 
     @media (max-width: 768px) {

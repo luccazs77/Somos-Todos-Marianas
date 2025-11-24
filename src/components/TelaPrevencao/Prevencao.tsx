@@ -1,3 +1,4 @@
+import { ButtonLink } from "../../presentation/buttons/ButtonPreVol/ButtonPreVol";
 import { Header } from "../Header/header2";
 import {
   Container,
@@ -16,7 +17,6 @@ export function Prevencao() {
 
   return (
     <>
-      <Header /> 
       <Container>
         <DivContainer>
           <Texto>
@@ -29,8 +29,13 @@ export function Prevencao() {
             </p>
 
             <ButtonsWrapper>
-              <SecondaryButton>Saiba mais</SecondaryButton>
-              <PrimaryButton>Seja um voluntário</PrimaryButton>
+              <ButtonLink to="/saibaPrevencao" variant="outlined">
+                  Saiba mais
+              </ButtonLink>
+
+              <ButtonLink to="/voluntario" variant="filled">
+                  Seja um voluntário
+              </ButtonLink>
             </ButtonsWrapper>
           </Texto>
 

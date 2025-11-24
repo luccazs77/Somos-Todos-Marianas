@@ -41,19 +41,17 @@ export function Header() {
           </NavItem>
 
           <NavItem>
-            <NavLink to="/prevenção">Prevenção</NavLink>
+            <NavLink to="/prevencao">Prevenção</NavLink>
           </NavItem>
 
+         <NavItem>
+            <NavLink to="/apoie">Seja apoiador</NavLink>
+          </NavItem>
 
            <NavItem>
-            <NavLink to="/voluntario">Seja voluntário</NavLink>
+            <VoluntarioButton to="/voluntario">Seja voluntário</VoluntarioButton>
           </NavItem>
-
-
-          <NavItem>
-            <VoluntarioButton to="/apoie">Seja apoiador</VoluntarioButton>
-          </NavItem>
-
+          
           <NavItem>
             <NavLink to="/contato">Contato</NavLink>
           </NavItem>

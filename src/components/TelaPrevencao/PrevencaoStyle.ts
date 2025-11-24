@@ -18,7 +18,7 @@ export const VideoFrame = styled.iframe`
 export const Container = styled.main`
   display: flex;
   width: 100%;
-  min-height: 100vh;              /* cresce com o conteúdo */
+  height: 87%;            /* cresce com o conteúdo */
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -62,7 +62,7 @@ export const Texto = styled.div`
     padding: 24px 8px;
     opacity: 0.8;
     line-height: 1.6;
-    text-align: left;
+    text-align: center;
   }
 
   @media (min-width: 900px) {
@@ -80,6 +80,7 @@ export const Textoh1 = styled.h1`
   font-size: 2.2rem;
   line-height: 1.2;
   margin: 0;
+  text-align: center;
 
   @media (min-width: 900px) {
     font-size: 2.6rem;
