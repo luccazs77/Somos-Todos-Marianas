@@ -21,7 +21,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 480px) {
-    min-height: 89.8vh;
+    min-height: 89.5vh;
   }
 `;
 
