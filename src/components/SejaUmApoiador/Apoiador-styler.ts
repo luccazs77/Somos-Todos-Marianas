@@ -11,8 +11,16 @@ export const Container = styled.div`
   color: #010101;
   padding: 20px;
 
-   @media (max-width: 768px) {
-    min-height: 89.8vh;
+   @media (max-width: 1024px) {
+    min-height: 88vh;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 9%;
+  }
+
+  @media (max-width: 480px) {
+    min-height: 100%;
   }
 `;
 
@@ -21,6 +29,8 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+
+
 
   /* Ajusta espaçamento para tablets */
   @media (max-width: 1024px) {
@@ -31,6 +41,7 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 20px;
+     min-height: 70%;
   }
 `;
 

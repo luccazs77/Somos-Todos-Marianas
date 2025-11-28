@@ -3,7 +3,7 @@ import { ButtonLink } from '../../presentation/buttons/ButtonPreVol/ButtonPreVol
 
 export function SaibaMaisProfissionalizante() {
     return(
-<>
+
     <S.AllContainer>
         <S.TituloPrincipal>
             Profissionalizar para Todos os Futuros: Quando o sonho coletivo se transforma em oportunidade real
@@ -39,7 +39,7 @@ export function SaibaMaisProfissionalizante() {
         <S.AreaBotoes>
            <ButtonLink to="/" variant="outlined">
             Voltar Topo
-        </ButtonLink>
+            </ButtonLink>
            
         <ButtonLink to="/voluntario" variant="filled">
             Seja um voluntário
@@ -47,6 +47,5 @@ export function SaibaMaisProfissionalizante() {
         </S.AreaBotoes>
 
     </S.AllContainer>
-</>
     )
 }

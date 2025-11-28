@@ -2,10 +2,22 @@ import styled from "styled-components";
 
 export const ContainerPai = styled.div`
   width: 100%;
-  height: 84%;
+  height: 83.4%;
   background-color: #f8f1f1ff;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1024px) {
+    min-height: 88vh;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 91%;
+  }
+
+  @media (max-width: 480px) {
+    min-height: 89.9%;
+  }
 `;
 
 export const ContainerMae = styled.div`

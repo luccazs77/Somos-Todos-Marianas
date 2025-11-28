@@ -12,13 +12,19 @@ export const VideoFrame = styled.iframe`
   outline: 3px solid #f18aa2;
   outline-offset: 4px;
   height: 31.25rem;
+
+   @media (max-width: 480px) {
+    display: none;
+  }
+
+  
 `;
 
 /* CONTAINER GERAL (ABAIXO DO HEADER) */
 export const Container = styled.main`
   display: flex;
   width: 100%;
-  height: 87%;            /* cresce com o conteúdo */
+  height: 83.3%;            /* cresce com o conteúdo */
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
@@ -27,8 +33,16 @@ export const Container = styled.main`
   color: #000000;
   font-family: Roboto, sans-serif;
 
-  @media (min-width: 900px) {
-    padding: 100px 40px 60px;
+   @media (max-width: 1024px) {
+    min-height: 88vh;
+  }
+
+  @media (max-width: 768px) {
+    min-height: 91%;
+  }
+
+  @media (max-width: 480px) {
+    min-height: 100%;
   }
 `;
 
@@ -117,9 +131,13 @@ export const Video = styled.img`
 export const ButtonsWrapper = styled.div`
   display: flex;
   gap: 16px;
-  margin-top: 32px;
+  margin-top: -82px;
   justify-content: center;
-  flex-wrap: wrap;           /* permite quebrar para linha de baixo no mobile */
+  flex-wrap: wrap;  
+  
+   @media (max-width: 768px) {
+    margin-top: -40px;
+  }
 `;
 
 /* Base comum dos botões */

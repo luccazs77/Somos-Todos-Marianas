@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 88vh;
+  height: 83.5%;
   background-color: #A28181;
   color: #000000;
   font-family: "Poppins", sans-serif;
@@ -17,11 +17,11 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    min-height: 88vh;
+    min-height: 91%;
   }
 
   @media (max-width: 480px) {
-    min-height: 89.5vh;
+    min-height: 89.9%;
   }
 `;
 
